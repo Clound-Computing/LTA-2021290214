@@ -1,0 +1,4236 @@
+Train Epoch: 1 Batch id: 0 Loss: 11.135255
+Train Epoch: 1 Batch id: 4 Loss: 8.151222
+Train Epoch: 1 Batch id: 8 Loss: 7.438232
+Train Epoch: 1 Batch id: 12 Loss: 7.306997
+Train Epoch: 1 Batch id: 16 Loss: 7.076794
+===== valid
+    only_seen_accuracy            : 0.572963
+    only_seen_precision           : 0.68174
+    only_seen_recall              : 0.571876
+    only_seen_macro_f1            : 0.571678
+    -----------                   :
+    only_unseen_accuracy          : 0.329111
+    only_unseen_precision         : 0.650629
+    only_unseen_recall            : 0.329111
+    only_unseen_macro_f1          : 0.314677
+    -----------                   :
+    seen_accuracy                 : 0.0251852
+    seen_precision                : 0.139021
+    seen_recall                   : 0.0225452
+    seen_macro_f1                 : 0.0331999
+    -----------                   :
+    unseen_accuracy               : 0.329111
+    unseen_precision              : 0.414837
+    unseen_recall                 : 0.329111
+    unseen_macro_f1               : 0.23837
+    -----------                   :
+    GZSL_seen_recall              : 0.0305556
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.0467897
+    GZSL_f1_hm                    : 0.058282
+    -----------                   :
+tau : Parameter containing:
+tensor(10.0035, device='cuda:0', requires_grad=True)
+    epoch                         : 1
+    loss                          : 7.61359
+    seen_accuracy                 : 0.0232727
+    seen_precision                : 0.0546296
+    seen_recall                   : 0.0217956
+    seen_macro_f1                 : 0.0289892
+    -----------                   :
+    unseen_accuracy               : 0.407
+    unseen_precision              : 0.468849
+    unseen_recall                 : 0.403545
+    unseen_macro_f1               : 0.369279
+    -----------                   :
+    GZSL_seen_recall              : 0.0296364
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.0484437
+    GZSL_f1_hm                    : 0.0572962
+    -----------                   :
+    val_only_seen_accuracy        : 0.572963
+    val_only_seen_precision       : 0.68174
+    val_only_seen_recall          : 0.571876
+    val_only_seen_macro_f1        : 0.571678
+    -----------                   :
+    val_only_unseen_accuracy      : 0.329111
+    val_only_unseen_precision     : 0.650629
+    val_only_unseen_recall        : 0.329111
+    val_only_unseen_macro_f1      : 0.314677
+    -----------                   :
+    val_seen_accuracy             : 0.0251852
+    val_seen_precision            : 0.139021
+    val_seen_recall               : 0.0225452
+    val_seen_macro_f1             : 0.0331999
+    -----------                   :
+    val_unseen_accuracy           : 0.329111
+    val_unseen_precision          : 0.414837
+    val_unseen_recall             : 0.329111
+    val_unseen_macro_f1           : 0.23837
+    -----------                   :
+    val_GZSL_seen_recall          : 0.0305556
+    val_GZSL_unseen_recall        : 0.998
+    val_GZSL_acc_hm               : 0.0467897
+    val_GZSL_f1_hm                : 0.058282
+    -----------                   :
+********************    Best performance epoch 1 : 0.046790
+
+====================
+Train Epoch: 2 Batch id: 0 Loss: 6.739609
+Train Epoch: 2 Batch id: 4 Loss: 6.300810
+Train Epoch: 2 Batch id: 8 Loss: 5.877221
+Train Epoch: 2 Batch id: 12 Loss: 5.572176
+Train Epoch: 2 Batch id: 16 Loss: 5.438171
+===== valid
+    only_seen_accuracy            : 0.665556
+    only_seen_precision           : 0.729563
+    only_seen_recall              : 0.666034
+    only_seen_macro_f1            : 0.662003
+    -----------                   :
+    only_unseen_accuracy          : 0.388222
+    only_unseen_precision         : 0.608301
+    only_unseen_recall            : 0.388222
+    only_unseen_macro_f1          : 0.389779
+    -----------                   :
+    seen_accuracy                 : 0.0385185
+    seen_precision                : 0.216729
+    seen_recall                   : 0.0343048
+    seen_macro_f1                 : 0.0502811
+    -----------                   :
+    unseen_accuracy               : 0.388222
+    unseen_precision              : 0.41168
+    unseen_recall                 : 0.388222
+    unseen_macro_f1               : 0.295713
+    -----------                   :
+    GZSL_seen_recall              : 0.0407407
+    GZSL_unseen_recall            : 0.998444
+    GZSL_acc_hm                   : 0.0700833
+    GZSL_f1_hm                    : 0.0859479
+    -----------                   :
+tau : Parameter containing:
+tensor(10.1628, device='cuda:0', requires_grad=True)
+    epoch                         : 2
+    loss                          : 5.87574
+    seen_accuracy                 : 0.0852727
+    seen_precision                : 0.202507
+    seen_recall                   : 0.0785756
+    seen_macro_f1                 : 0.105215
+    -----------                   :
+    unseen_accuracy               : 0.632
+    unseen_precision              : 0.692357
+    unseen_recall                 : 0.615545
+    unseen_macro_f1               : 0.597279
+    -----------                   :
+    GZSL_seen_recall              : 0.098
+    GZSL_unseen_recall            : 0.993
+    GZSL_acc_hm                   : 0.102205
+    GZSL_f1_hm                    : 0.124472
+    -----------                   :
+    val_only_seen_accuracy        : 0.665556
+    val_only_seen_precision       : 0.729563
+    val_only_seen_recall          : 0.666034
+    val_only_seen_macro_f1        : 0.662003
+    -----------                   :
+    val_only_unseen_accuracy      : 0.388222
+    val_only_unseen_precision     : 0.608301
+    val_only_unseen_recall        : 0.388222
+    val_only_unseen_macro_f1      : 0.389779
+    -----------                   :
+    val_seen_accuracy             : 0.0385185
+    val_seen_precision            : 0.216729
+    val_seen_recall               : 0.0343048
+    val_seen_macro_f1             : 0.0502811
+    -----------                   :
+    val_unseen_accuracy           : 0.388222
+    val_unseen_precision          : 0.41168
+    val_unseen_recall             : 0.388222
+    val_unseen_macro_f1           : 0.295713
+    -----------                   :
+    val_GZSL_seen_recall          : 0.0407407
+    val_GZSL_unseen_recall        : 0.998444
+    val_GZSL_acc_hm               : 0.0700833
+    val_GZSL_f1_hm                : 0.0859479
+    -----------                   :
+********************    Best performance epoch 2 : 0.070083
+
+====================
+Train Epoch: 3 Batch id: 0 Loss: 5.409919
+Train Epoch: 3 Batch id: 4 Loss: 4.692144
+Train Epoch: 3 Batch id: 8 Loss: 4.839977
+Train Epoch: 3 Batch id: 12 Loss: 4.778559
+Train Epoch: 3 Batch id: 16 Loss: 4.322906
+===== valid
+    only_seen_accuracy            : 0.706111
+    only_seen_precision           : 0.725716
+    only_seen_recall              : 0.704715
+    only_seen_macro_f1            : 0.695193
+    -----------                   :
+    only_unseen_accuracy          : 0.558
+    only_unseen_precision         : 0.634382
+    only_unseen_recall            : 0.558
+    only_unseen_macro_f1          : 0.548718
+    -----------                   :
+    seen_accuracy                 : 0.254444
+    seen_precision                : 0.662406
+    seen_recall                   : 0.248008
+    seen_macro_f1                 : 0.307948
+    -----------                   :
+    unseen_accuracy               : 0.534444
+    unseen_precision              : 0.390753
+    unseen_recall                 : 0.534444
+    unseen_macro_f1               : 0.402792
+    -----------                   :
+    GZSL_seen_recall              : 0.293333
+    GZSL_unseen_recall            : 0.942
+    GZSL_acc_hm                   : 0.344754
+    GZSL_f1_hm                    : 0.349042
+    -----------                   :
+tau : Parameter containing:
+tensor(10.3801, device='cuda:0', requires_grad=True)
+    epoch                         : 3
+    loss                          : 4.81968
+    seen_accuracy                 : 0.224455
+    seen_precision                : 0.42392
+    seen_recall                   : 0.206434
+    seen_macro_f1                 : 0.258047
+    -----------                   :
+    unseen_accuracy               : 0.734
+    unseen_precision              : 0.750854
+    unseen_recall                 : 0.69572
+    unseen_macro_f1               : 0.684673
+    -----------                   :
+    GZSL_seen_recall              : 0.256091
+    GZSL_unseen_recall            : 0.988
+    GZSL_acc_hm                   : 0.260265
+    GZSL_f1_hm                    : 0.292701
+    -----------                   :
+    val_only_seen_accuracy        : 0.706111
+    val_only_seen_precision       : 0.725716
+    val_only_seen_recall          : 0.704715
+    val_only_seen_macro_f1        : 0.695193
+    -----------                   :
+    val_only_unseen_accuracy      : 0.558
+    val_only_unseen_precision     : 0.634382
+    val_only_unseen_recall        : 0.558
+    val_only_unseen_macro_f1      : 0.548718
+    -----------                   :
+    val_seen_accuracy             : 0.254444
+    val_seen_precision            : 0.662406
+    val_seen_recall               : 0.248008
+    val_seen_macro_f1             : 0.307948
+    -----------                   :
+    val_unseen_accuracy           : 0.534444
+    val_unseen_precision          : 0.390753
+    val_unseen_recall             : 0.534444
+    val_unseen_macro_f1           : 0.402792
+    -----------                   :
+    val_GZSL_seen_recall          : 0.293333
+    val_GZSL_unseen_recall        : 0.942
+    val_GZSL_acc_hm               : 0.344754
+    val_GZSL_f1_hm                : 0.349042
+    -----------                   :
+********************    Best performance epoch 3 : 0.344754
+
+====================
+Train Epoch: 4 Batch id: 0 Loss: 3.961206
+Train Epoch: 4 Batch id: 4 Loss: 4.005178
+Train Epoch: 4 Batch id: 8 Loss: 3.617750
+Train Epoch: 4 Batch id: 12 Loss: 3.714445
+Train Epoch: 4 Batch id: 16 Loss: 3.399046
+===== valid
+    only_seen_accuracy            : 0.748704
+    only_seen_precision           : 0.762467
+    only_seen_recall              : 0.747782
+    only_seen_macro_f1            : 0.739081
+    -----------                   :
+    only_unseen_accuracy          : 0.591556
+    only_unseen_precision         : 0.631621
+    only_unseen_recall            : 0.591556
+    only_unseen_macro_f1          : 0.583064
+    -----------                   :
+    seen_accuracy                 : 0.374444
+    seen_precision                : 0.735542
+    seen_recall                   : 0.367966
+    seen_macro_f1                 : 0.438311
+    -----------                   :
+    unseen_accuracy               : 0.554222
+    unseen_precision              : 0.414819
+    unseen_recall                 : 0.554222
+    unseen_macro_f1               : 0.441609
+    -----------                   :
+    GZSL_seen_recall              : 0.421111
+    GZSL_unseen_recall            : 0.918444
+    GZSL_acc_hm                   : 0.446932
+    GZSL_f1_hm                    : 0.439953
+    -----------                   :
+tau : Parameter containing:
+tensor(10.6152, device='cuda:0', requires_grad=True)
+    epoch                         : 4
+    loss                          : 3.70256
+    seen_accuracy                 : 0.435818
+    seen_precision                : 0.645367
+    seen_recall                   : 0.3995
+    seen_macro_f1                 : 0.464408
+    -----------                   :
+    unseen_accuracy               : 0.836
+    unseen_precision              : 0.809514
+    unseen_recall                 : 0.776234
+    unseen_macro_f1               : 0.773145
+    -----------                   :
+    GZSL_seen_recall              : 0.499273
+    GZSL_unseen_recall            : 0.979
+    GZSL_acc_hm                   : 0.548319
+    GZSL_f1_hm                    : 0.558511
+    -----------                   :
+    val_only_seen_accuracy        : 0.748704
+    val_only_seen_precision       : 0.762467
+    val_only_seen_recall          : 0.747782
+    val_only_seen_macro_f1        : 0.739081
+    -----------                   :
+    val_only_unseen_accuracy      : 0.591556
+    val_only_unseen_precision     : 0.631621
+    val_only_unseen_recall        : 0.591556
+    val_only_unseen_macro_f1      : 0.583064
+    -----------                   :
+    val_seen_accuracy             : 0.374444
+    val_seen_precision            : 0.735542
+    val_seen_recall               : 0.367966
+    val_seen_macro_f1             : 0.438311
+    -----------                   :
+    val_unseen_accuracy           : 0.554222
+    val_unseen_precision          : 0.414819
+    val_unseen_recall             : 0.554222
+    val_unseen_macro_f1           : 0.441609
+    -----------                   :
+    val_GZSL_seen_recall          : 0.421111
+    val_GZSL_unseen_recall        : 0.918444
+    val_GZSL_acc_hm               : 0.446932
+    val_GZSL_f1_hm                : 0.439953
+    -----------                   :
+********************    Best performance epoch 4 : 0.446932
+
+====================
+Train Epoch: 5 Batch id: 0 Loss: 3.208065
+Train Epoch: 5 Batch id: 4 Loss: 3.179874
+Train Epoch: 5 Batch id: 8 Loss: 2.673074
+Train Epoch: 5 Batch id: 12 Loss: 2.821290
+Train Epoch: 5 Batch id: 16 Loss: 2.755443
+===== valid
+    only_seen_accuracy            : 0.780926
+    only_seen_precision           : 0.790278
+    only_seen_recall              : 0.778875
+    only_seen_macro_f1            : 0.772969
+    -----------                   :
+    only_unseen_accuracy          : 0.593333
+    only_unseen_precision         : 0.638152
+    only_unseen_recall            : 0.593333
+    only_unseen_macro_f1          : 0.573835
+    -----------                   :
+    seen_accuracy                 : 0.447778
+    seen_precision                : 0.778579
+    seen_recall                   : 0.44135
+    seen_macro_f1                 : 0.512388
+    -----------                   :
+    unseen_accuracy               : 0.553556
+    unseen_precision              : 0.432295
+    unseen_recall                 : 0.553556
+    unseen_macro_f1               : 0.44315
+    -----------                   :
+    GZSL_seen_recall              : 0.493704
+    GZSL_unseen_recall            : 0.920222
+    GZSL_acc_hm                   : 0.495079
+    GZSL_f1_hm                    : 0.47526
+    -----------                   :
+tau : Parameter containing:
+tensor(10.8437, device='cuda:0', requires_grad=True)
+    epoch                         : 5
+    loss                          : 2.88369
+    seen_accuracy                 : 0.566364
+    seen_precision                : 0.740645
+    seen_recall                   : 0.519829
+    seen_macro_f1                 : 0.580979
+    -----------                   :
+    unseen_accuracy               : 0.901
+    unseen_precision              : 0.86419
+    unseen_recall                 : 0.83843
+    unseen_macro_f1               : 0.839376
+    -----------                   :
+    GZSL_seen_recall              : 0.640909
+    GZSL_unseen_recall            : 0.982
+    GZSL_acc_hm                   : 0.662347
+    GZSL_f1_hm                    : 0.664273
+    -----------                   :
+    val_only_seen_accuracy        : 0.780926
+    val_only_seen_precision       : 0.790278
+    val_only_seen_recall          : 0.778875
+    val_only_seen_macro_f1        : 0.772969
+    -----------                   :
+    val_only_unseen_accuracy      : 0.593333
+    val_only_unseen_precision     : 0.638152
+    val_only_unseen_recall        : 0.593333
+    val_only_unseen_macro_f1      : 0.573835
+    -----------                   :
+    val_seen_accuracy             : 0.447778
+    val_seen_precision            : 0.778579
+    val_seen_recall               : 0.44135
+    val_seen_macro_f1             : 0.512388
+    -----------                   :
+    val_unseen_accuracy           : 0.553556
+    val_unseen_precision          : 0.432295
+    val_unseen_recall             : 0.553556
+    val_unseen_macro_f1           : 0.44315
+    -----------                   :
+    val_GZSL_seen_recall          : 0.493704
+    val_GZSL_unseen_recall        : 0.920222
+    val_GZSL_acc_hm               : 0.495079
+    val_GZSL_f1_hm                : 0.47526
+    -----------                   :
+********************    Best performance epoch 5 : 0.495079
+
+====================
+Train Epoch: 6 Batch id: 0 Loss: 2.474614
+Train Epoch: 6 Batch id: 4 Loss: 2.401321
+Train Epoch: 6 Batch id: 8 Loss: 2.339520
+Train Epoch: 6 Batch id: 12 Loss: 2.269964
+Train Epoch: 6 Batch id: 16 Loss: 1.998393
+===== valid
+    only_seen_accuracy            : 0.802963
+    only_seen_precision           : 0.810413
+    only_seen_recall              : 0.801613
+    only_seen_macro_f1            : 0.796305
+    -----------                   :
+    only_unseen_accuracy          : 0.617778
+    only_unseen_precision         : 0.647048
+    only_unseen_recall            : 0.617778
+    only_unseen_macro_f1          : 0.601463
+    -----------                   :
+    seen_accuracy                 : 0.561296
+    seen_precision                : 0.816114
+    seen_recall                   : 0.555993
+    seen_macro_f1                 : 0.610342
+    -----------                   :
+    unseen_accuracy               : 0.565333
+    unseen_precision              : 0.479174
+    unseen_recall                 : 0.565333
+    unseen_macro_f1               : 0.482567
+    -----------                   :
+    GZSL_seen_recall              : 0.627407
+    GZSL_unseen_recall            : 0.888
+    GZSL_acc_hm                   : 0.563307
+    GZSL_f1_hm                    : 0.538984
+    -----------                   :
+tau : Parameter containing:
+tensor(11.0527, device='cuda:0', requires_grad=True)
+    epoch                         : 6
+    loss                          : 2.32245
+    seen_accuracy                 : 0.668545
+    seen_precision                : 0.788402
+    seen_recall                   : 0.614413
+    seen_macro_f1                 : 0.664695
+    -----------                   :
+    unseen_accuracy               : 0.889
+    unseen_precision              : 0.836165
+    unseen_recall                 : 0.80142
+    unseen_macro_f1               : 0.807018
+    -----------                   :
+    GZSL_seen_recall              : 0.754273
+    GZSL_unseen_recall            : 0.975
+    GZSL_acc_hm                   : 0.751993
+    GZSL_f1_hm                    : 0.726462
+    -----------                   :
+    val_only_seen_accuracy        : 0.802963
+    val_only_seen_precision       : 0.810413
+    val_only_seen_recall          : 0.801613
+    val_only_seen_macro_f1        : 0.796305
+    -----------                   :
+    val_only_unseen_accuracy      : 0.617778
+    val_only_unseen_precision     : 0.647048
+    val_only_unseen_recall        : 0.617778
+    val_only_unseen_macro_f1      : 0.601463
+    -----------                   :
+    val_seen_accuracy             : 0.561296
+    val_seen_precision            : 0.816114
+    val_seen_recall               : 0.555993
+    val_seen_macro_f1             : 0.610342
+    -----------                   :
+    val_unseen_accuracy           : 0.565333
+    val_unseen_precision          : 0.479174
+    val_unseen_recall             : 0.565333
+    val_unseen_macro_f1           : 0.482567
+    -----------                   :
+    val_GZSL_seen_recall          : 0.627407
+    val_GZSL_unseen_recall        : 0.888
+    val_GZSL_acc_hm               : 0.563307
+    val_GZSL_f1_hm                : 0.538984
+    -----------                   :
+********************    Best performance epoch 6 : 0.563307
+
+====================
+Train Epoch: 7 Batch id: 0 Loss: 2.209606
+Train Epoch: 7 Batch id: 4 Loss: 1.808072
+Train Epoch: 7 Batch id: 8 Loss: 1.755799
+Train Epoch: 7 Batch id: 12 Loss: 1.700931
+Train Epoch: 7 Batch id: 16 Loss: 1.824997
+===== valid
+    only_seen_accuracy            : 0.830556
+    only_seen_precision           : 0.833389
+    only_seen_recall              : 0.829743
+    only_seen_macro_f1            : 0.825487
+    -----------                   :
+    only_unseen_accuracy          : 0.642444
+    only_unseen_precision         : 0.652777
+    only_unseen_recall            : 0.642444
+    only_unseen_macro_f1          : 0.62551
+    -----------                   :
+    seen_accuracy                 : 0.652222
+    seen_precision                : 0.82393
+    seen_recall                   : 0.65009
+    seen_macro_f1                 : 0.685885
+    -----------                   :
+    unseen_accuracy               : 0.564444
+    unseen_precision              : 0.507725
+    unseen_recall                 : 0.564444
+    unseen_macro_f1               : 0.505472
+    -----------                   :
+    GZSL_seen_recall              : 0.719815
+    GZSL_unseen_recall            : 0.837111
+    GZSL_acc_hm                   : 0.605166
+    GZSL_f1_hm                    : 0.582018
+    -----------                   :
+tau : Parameter containing:
+tensor(11.2445, device='cuda:0', requires_grad=True)
+    epoch                         : 7
+    loss                          : 1.80337
+    seen_accuracy                 : 0.745
+    seen_precision                : 0.821194
+    seen_recall                   : 0.684935
+    seen_macro_f1                 : 0.725805
+    -----------                   :
+    unseen_accuracy               : 0.935
+    unseen_precision              : 0.880983
+    unseen_recall                 : 0.858455
+    unseen_macro_f1               : 0.86409
+    -----------                   :
+    GZSL_seen_recall              : 0.826455
+    GZSL_unseen_recall            : 0.98
+    GZSL_acc_hm                   : 0.817914
+    GZSL_f1_hm                    : 0.77029
+    -----------                   :
+    val_only_seen_accuracy        : 0.830556
+    val_only_seen_precision       : 0.833389
+    val_only_seen_recall          : 0.829743
+    val_only_seen_macro_f1        : 0.825487
+    -----------                   :
+    val_only_unseen_accuracy      : 0.642444
+    val_only_unseen_precision     : 0.652777
+    val_only_unseen_recall        : 0.642444
+    val_only_unseen_macro_f1      : 0.62551
+    -----------                   :
+    val_seen_accuracy             : 0.652222
+    val_seen_precision            : 0.82393
+    val_seen_recall               : 0.65009
+    val_seen_macro_f1             : 0.685885
+    -----------                   :
+    val_unseen_accuracy           : 0.564444
+    val_unseen_precision          : 0.507725
+    val_unseen_recall             : 0.564444
+    val_unseen_macro_f1           : 0.505472
+    -----------                   :
+    val_GZSL_seen_recall          : 0.719815
+    val_GZSL_unseen_recall        : 0.837111
+    val_GZSL_acc_hm               : 0.605166
+    val_GZSL_f1_hm                : 0.582018
+    -----------                   :
+********************    Best performance epoch 7 : 0.605166
+
+====================
+Train Epoch: 8 Batch id: 0 Loss: 1.593841
+Train Epoch: 8 Batch id: 4 Loss: 1.616556
+Train Epoch: 8 Batch id: 8 Loss: 1.608882
+Train Epoch: 8 Batch id: 12 Loss: 1.377893
+Train Epoch: 8 Batch id: 16 Loss: 1.290768
+===== valid
+    only_seen_accuracy            : 0.852407
+    only_seen_precision           : 0.858019
+    only_seen_recall              : 0.851937
+    only_seen_macro_f1            : 0.849031
+    -----------                   :
+    only_unseen_accuracy          : 0.676667
+    only_unseen_precision         : 0.688677
+    only_unseen_recall            : 0.676667
+    only_unseen_macro_f1          : 0.663648
+    -----------                   :
+    seen_accuracy                 : 0.701667
+    seen_precision                : 0.826281
+    seen_recall                   : 0.699427
+    seen_macro_f1                 : 0.721676
+    -----------                   :
+    unseen_accuracy               : 0.584
+    unseen_precision              : 0.556985
+    unseen_recall                 : 0.584
+    unseen_macro_f1               : 0.543702
+    -----------                   :
+    GZSL_seen_recall              : 0.77037
+    GZSL_unseen_recall            : 0.822667
+    GZSL_acc_hm                   : 0.637448
+    GZSL_f1_hm                    : 0.620172
+    -----------                   :
+tau : Parameter containing:
+tensor(11.4184, device='cuda:0', requires_grad=True)
+    epoch                         : 8
+    loss                          : 1.5114
+    seen_accuracy                 : 0.792364
+    seen_precision                : 0.837274
+    seen_recall                   : 0.72913
+    seen_macro_f1                 : 0.762573
+    -----------                   :
+    unseen_accuracy               : 0.946
+    unseen_precision              : 0.899725
+    unseen_recall                 : 0.880788
+    unseen_macro_f1               : 0.886288
+    -----------                   :
+    GZSL_seen_recall              : 0.859818
+    GZSL_unseen_recall            : 0.984
+    GZSL_acc_hm                   : 0.858341
+    GZSL_f1_hm                    : 0.811717
+    -----------                   :
+    val_only_seen_accuracy        : 0.852407
+    val_only_seen_precision       : 0.858019
+    val_only_seen_recall          : 0.851937
+    val_only_seen_macro_f1        : 0.849031
+    -----------                   :
+    val_only_unseen_accuracy      : 0.676667
+    val_only_unseen_precision     : 0.688677
+    val_only_unseen_recall        : 0.676667
+    val_only_unseen_macro_f1      : 0.663648
+    -----------                   :
+    val_seen_accuracy             : 0.701667
+    val_seen_precision            : 0.826281
+    val_seen_recall               : 0.699427
+    val_seen_macro_f1             : 0.721676
+    -----------                   :
+    val_unseen_accuracy           : 0.584
+    val_unseen_precision          : 0.556985
+    val_unseen_recall             : 0.584
+    val_unseen_macro_f1           : 0.543702
+    -----------                   :
+    val_GZSL_seen_recall          : 0.77037
+    val_GZSL_unseen_recall        : 0.822667
+    val_GZSL_acc_hm               : 0.637448
+    val_GZSL_f1_hm                : 0.620172
+    -----------                   :
+********************    Best performance epoch 8 : 0.637448
+
+====================
+Train Epoch: 9 Batch id: 0 Loss: 1.214319
+Train Epoch: 9 Batch id: 4 Loss: 1.155425
+Train Epoch: 9 Batch id: 8 Loss: 1.179534
+Train Epoch: 9 Batch id: 12 Loss: 1.347942
+Train Epoch: 9 Batch id: 16 Loss: 1.044368
+===== valid
+    only_seen_accuracy            : 0.875185
+    only_seen_precision           : 0.876937
+    only_seen_recall              : 0.873483
+    only_seen_macro_f1            : 0.871185
+    -----------                   :
+    only_unseen_accuracy          : 0.696889
+    only_unseen_precision         : 0.703076
+    only_unseen_recall            : 0.696889
+    only_unseen_macro_f1          : 0.6835
+    -----------                   :
+    seen_accuracy                 : 0.745556
+    seen_precision                : 0.828673
+    seen_recall                   : 0.742968
+    seen_macro_f1                 : 0.755134
+    -----------                   :
+    unseen_accuracy               : 0.597778
+    unseen_precision              : 0.580055
+    unseen_recall                 : 0.597778
+    unseen_macro_f1               : 0.563097
+    -----------                   :
+    GZSL_seen_recall              : 0.806296
+    GZSL_unseen_recall            : 0.825111
+    GZSL_acc_hm                   : 0.663538
+    GZSL_f1_hm                    : 0.645127
+    -----------                   :
+tau : Parameter containing:
+tensor(11.5726, device='cuda:0', requires_grad=True)
+    epoch                         : 9
+    loss                          : 1.22001
+    seen_accuracy                 : 0.830545
+    seen_precision                : 0.856304
+    seen_recall                   : 0.766861
+    seen_macro_f1                 : 0.793789
+    -----------                   :
+    unseen_accuracy               : 0.95
+    unseen_precision              : 0.907133
+    unseen_recall                 : 0.88797
+    unseen_macro_f1               : 0.892954
+    -----------                   :
+    GZSL_seen_recall              : 0.897182
+    GZSL_unseen_recall            : 0.983
+    GZSL_acc_hm                   : 0.88123
+    GZSL_f1_hm                    : 0.827879
+    -----------                   :
+    val_only_seen_accuracy        : 0.875185
+    val_only_seen_precision       : 0.876937
+    val_only_seen_recall          : 0.873483
+    val_only_seen_macro_f1        : 0.871185
+    -----------                   :
+    val_only_unseen_accuracy      : 0.696889
+    val_only_unseen_precision     : 0.703076
+    val_only_unseen_recall        : 0.696889
+    val_only_unseen_macro_f1      : 0.6835
+    -----------                   :
+    val_seen_accuracy             : 0.745556
+    val_seen_precision            : 0.828673
+    val_seen_recall               : 0.742968
+    val_seen_macro_f1             : 0.755134
+    -----------                   :
+    val_unseen_accuracy           : 0.597778
+    val_unseen_precision          : 0.580055
+    val_unseen_recall             : 0.597778
+    val_unseen_macro_f1           : 0.563097
+    -----------                   :
+    val_GZSL_seen_recall          : 0.806296
+    val_GZSL_unseen_recall        : 0.825111
+    val_GZSL_acc_hm               : 0.663538
+    val_GZSL_f1_hm                : 0.645127
+    -----------                   :
+********************    Best performance epoch 9 : 0.663538
+
+====================
+Train Epoch: 10 Batch id: 0 Loss: 1.201655
+Train Epoch: 10 Batch id: 4 Loss: 1.091151
+Train Epoch: 10 Batch id: 8 Loss: 1.183515
+Train Epoch: 10 Batch id: 12 Loss: 0.888463
+Train Epoch: 10 Batch id: 16 Loss: 1.076955
+===== valid
+    only_seen_accuracy            : 0.885741
+    only_seen_precision           : 0.887401
+    only_seen_recall              : 0.88529
+    only_seen_macro_f1            : 0.882901
+    -----------                   :
+    only_unseen_accuracy          : 0.700222
+    only_unseen_precision         : 0.710919
+    only_unseen_recall            : 0.700222
+    only_unseen_macro_f1          : 0.687621
+    -----------                   :
+    seen_accuracy                 : 0.748889
+    seen_precision                : 0.83054
+    seen_recall                   : 0.74663
+    seen_macro_f1                 : 0.764921
+    -----------                   :
+    unseen_accuracy               : 0.615333
+    unseen_precision              : 0.576983
+    unseen_recall                 : 0.615333
+    unseen_macro_f1               : 0.572141
+    -----------                   :
+    GZSL_seen_recall              : 0.801481
+    GZSL_unseen_recall            : 0.840444
+    GZSL_acc_hm                   : 0.675573
+    GZSL_f1_hm                    : 0.654633
+    -----------                   :
+tau : Parameter containing:
+tensor(11.7171, device='cuda:0', requires_grad=True)
+    epoch                         : 10
+    loss                          : 1.08484
+    seen_accuracy                 : 0.863636
+    seen_precision                : 0.8696
+    seen_recall                   : 0.797
+    seen_macro_f1                 : 0.819473
+    -----------                   :
+    unseen_accuracy               : 0.96
+    unseen_precision              : 0.909759
+    unseen_recall                 : 0.892627
+    unseen_macro_f1               : 0.898469
+    -----------                   :
+    GZSL_seen_recall              : 0.919091
+    GZSL_unseen_recall            : 0.983
+    GZSL_acc_hm                   : 0.905744
+    GZSL_f1_hm                    : 0.847972
+    -----------                   :
+    val_only_seen_accuracy        : 0.885741
+    val_only_seen_precision       : 0.887401
+    val_only_seen_recall          : 0.88529
+    val_only_seen_macro_f1        : 0.882901
+    -----------                   :
+    val_only_unseen_accuracy      : 0.700222
+    val_only_unseen_precision     : 0.710919
+    val_only_unseen_recall        : 0.700222
+    val_only_unseen_macro_f1      : 0.687621
+    -----------                   :
+    val_seen_accuracy             : 0.748889
+    val_seen_precision            : 0.83054
+    val_seen_recall               : 0.74663
+    val_seen_macro_f1             : 0.764921
+    -----------                   :
+    val_unseen_accuracy           : 0.615333
+    val_unseen_precision          : 0.576983
+    val_unseen_recall             : 0.615333
+    val_unseen_macro_f1           : 0.572141
+    -----------                   :
+    val_GZSL_seen_recall          : 0.801481
+    val_GZSL_unseen_recall        : 0.840444
+    val_GZSL_acc_hm               : 0.675573
+    val_GZSL_f1_hm                : 0.654633
+    -----------                   :
+********************    Best performance epoch 10 : 0.675573
+
+====================
+Train Epoch: 11 Batch id: 0 Loss: 0.916094
+Train Epoch: 11 Batch id: 4 Loss: 1.078587
+Train Epoch: 11 Batch id: 8 Loss: 0.998477
+Train Epoch: 11 Batch id: 12 Loss: 0.803875
+Train Epoch: 11 Batch id: 16 Loss: 0.813054
+===== valid
+    only_seen_accuracy            : 0.893889
+    only_seen_precision           : 0.897018
+    only_seen_recall              : 0.892909
+    only_seen_macro_f1            : 0.891195
+    -----------                   :
+    only_unseen_accuracy          : 0.708667
+    only_unseen_precision         : 0.719373
+    only_unseen_recall            : 0.708667
+    only_unseen_macro_f1          : 0.695626
+    -----------                   :
+    seen_accuracy                 : 0.783148
+    seen_precision                : 0.84211
+    seen_recall                   : 0.780351
+    seen_macro_f1                 : 0.787468
+    -----------                   :
+    unseen_accuracy               : 0.607111
+    unseen_precision              : 0.606999
+    unseen_recall                 : 0.607111
+    unseen_macro_f1               : 0.580578
+    -----------                   :
+    GZSL_seen_recall              : 0.832222
+    GZSL_unseen_recall            : 0.816444
+    GZSL_acc_hm                   : 0.683984
+    GZSL_f1_hm                    : 0.668378
+    -----------                   :
+tau : Parameter containing:
+tensor(11.8520, device='cuda:0', requires_grad=True)
+    epoch                         : 11
+    loss                          : 0.917274
+    seen_accuracy                 : 0.878091
+    seen_precision                : 0.877119
+    seen_recall                   : 0.810035
+    seen_macro_f1                 : 0.831592
+    -----------                   :
+    unseen_accuracy               : 0.976
+    unseen_precision              : 0.951561
+    unseen_recall                 : 0.941894
+    unseen_macro_f1               : 0.944835
+    -----------                   :
+    GZSL_seen_recall              : 0.923818
+    GZSL_unseen_recall            : 0.992
+    GZSL_acc_hm                   : 0.91722
+    GZSL_f1_hm                    : 0.874184
+    -----------                   :
+    val_only_seen_accuracy        : 0.893889
+    val_only_seen_precision       : 0.897018
+    val_only_seen_recall          : 0.892909
+    val_only_seen_macro_f1        : 0.891195
+    -----------                   :
+    val_only_unseen_accuracy      : 0.708667
+    val_only_unseen_precision     : 0.719373
+    val_only_unseen_recall        : 0.708667
+    val_only_unseen_macro_f1      : 0.695626
+    -----------                   :
+    val_seen_accuracy             : 0.783148
+    val_seen_precision            : 0.84211
+    val_seen_recall               : 0.780351
+    val_seen_macro_f1             : 0.787468
+    -----------                   :
+    val_unseen_accuracy           : 0.607111
+    val_unseen_precision          : 0.606999
+    val_unseen_recall             : 0.607111
+    val_unseen_macro_f1           : 0.580578
+    -----------                   :
+    val_GZSL_seen_recall          : 0.832222
+    val_GZSL_unseen_recall        : 0.816444
+    val_GZSL_acc_hm               : 0.683984
+    val_GZSL_f1_hm                : 0.668378
+    -----------                   :
+********************    Best performance epoch 11 : 0.683984
+
+====================
+Train Epoch: 12 Batch id: 0 Loss: 0.851695
+Train Epoch: 12 Batch id: 4 Loss: 0.795866
+Train Epoch: 12 Batch id: 8 Loss: 0.671127
+Train Epoch: 12 Batch id: 12 Loss: 0.900944
+Train Epoch: 12 Batch id: 16 Loss: 0.762355
+===== valid
+    only_seen_accuracy            : 0.903704
+    only_seen_precision           : 0.905048
+    only_seen_recall              : 0.902731
+    only_seen_macro_f1            : 0.901754
+    -----------                   :
+    only_unseen_accuracy          : 0.707111
+    only_unseen_precision         : 0.713584
+    only_unseen_recall            : 0.707111
+    only_unseen_macro_f1          : 0.694353
+    -----------                   :
+    seen_accuracy                 : 0.795185
+    seen_precision                : 0.844079
+    seen_recall                   : 0.792663
+    seen_macro_f1                 : 0.79453
+    -----------                   :
+    unseen_accuracy               : 0.612222
+    unseen_precision              : 0.614672
+    unseen_recall                 : 0.612222
+    unseen_macro_f1               : 0.58718
+    -----------                   :
+    GZSL_seen_recall              : 0.843519
+    GZSL_unseen_recall            : 0.815333
+    GZSL_acc_hm                   : 0.691811
+    GZSL_f1_hm                    : 0.675296
+    -----------                   :
+tau : Parameter containing:
+tensor(11.9797, device='cuda:0', requires_grad=True)
+    epoch                         : 12
+    loss                          : 0.806366
+    seen_accuracy                 : 0.898364
+    seen_precision                : 0.886542
+    seen_recall                   : 0.833294
+    seen_macro_f1                 : 0.849861
+    -----------                   :
+    unseen_accuracy               : 0.978
+    unseen_precision              : 0.96303
+    unseen_recall                 : 0.956364
+    unseen_macro_f1               : 0.958255
+    -----------                   :
+    GZSL_seen_recall              : 0.942364
+    GZSL_unseen_recall            : 0.995
+    GZSL_acc_hm                   : 0.937071
+    GZSL_f1_hm                    : 0.899701
+    -----------                   :
+    val_only_seen_accuracy        : 0.903704
+    val_only_seen_precision       : 0.905048
+    val_only_seen_recall          : 0.902731
+    val_only_seen_macro_f1        : 0.901754
+    -----------                   :
+    val_only_unseen_accuracy      : 0.707111
+    val_only_unseen_precision     : 0.713584
+    val_only_unseen_recall        : 0.707111
+    val_only_unseen_macro_f1      : 0.694353
+    -----------                   :
+    val_seen_accuracy             : 0.795185
+    val_seen_precision            : 0.844079
+    val_seen_recall               : 0.792663
+    val_seen_macro_f1             : 0.79453
+    -----------                   :
+    val_unseen_accuracy           : 0.612222
+    val_unseen_precision          : 0.614672
+    val_unseen_recall             : 0.612222
+    val_unseen_macro_f1           : 0.58718
+    -----------                   :
+    val_GZSL_seen_recall          : 0.843519
+    val_GZSL_unseen_recall        : 0.815333
+    val_GZSL_acc_hm               : 0.691811
+    val_GZSL_f1_hm                : 0.675296
+    -----------                   :
+********************    Best performance epoch 12 : 0.691811
+
+====================
+Train Epoch: 13 Batch id: 0 Loss: 0.840419
+Train Epoch: 13 Batch id: 4 Loss: 0.811976
+Train Epoch: 13 Batch id: 8 Loss: 0.926787
+Train Epoch: 13 Batch id: 12 Loss: 0.556148
+Train Epoch: 13 Batch id: 16 Loss: 0.771343
+===== valid
+    only_seen_accuracy            : 0.911667
+    only_seen_precision           : 0.912309
+    only_seen_recall              : 0.910842
+    only_seen_macro_f1            : 0.909838
+    -----------                   :
+    only_unseen_accuracy          : 0.703333
+    only_unseen_precision         : 0.713453
+    only_unseen_recall            : 0.703333
+    only_unseen_macro_f1          : 0.690217
+    -----------                   :
+    seen_accuracy                 : 0.818333
+    seen_precision                : 0.832263
+    seen_recall                   : 0.816327
+    seen_macro_f1                 : 0.809153
+    -----------                   :
+    unseen_accuracy               : 0.605778
+    unseen_precision              : 0.637936
+    unseen_recall                 : 0.605778
+    unseen_macro_f1               : 0.593095
+    -----------                   :
+    GZSL_seen_recall              : 0.866852
+    GZSL_unseen_recall            : 0.803778
+    GZSL_acc_hm                   : 0.696193
+    GZSL_f1_hm                    : 0.684478
+    -----------                   :
+tau : Parameter containing:
+tensor(12.0995, device='cuda:0', requires_grad=True)
+    epoch                         : 13
+    loss                          : 0.724486
+    seen_accuracy                 : 0.913273
+    seen_precision                : 0.896096
+    seen_recall                   : 0.851144
+    seen_macro_f1                 : 0.864837
+    -----------                   :
+    unseen_accuracy               : 0.972
+    unseen_precision              : 0.927672
+    unseen_recall                 : 0.914061
+    unseen_macro_f1               : 0.919001
+    -----------                   :
+    GZSL_seen_recall              : 0.953182
+    GZSL_unseen_recall            : 0.986
+    GZSL_acc_hm                   : 0.940188
+    GZSL_f1_hm                    : 0.894219
+    -----------                   :
+    val_only_seen_accuracy        : 0.911667
+    val_only_seen_precision       : 0.912309
+    val_only_seen_recall          : 0.910842
+    val_only_seen_macro_f1        : 0.909838
+    -----------                   :
+    val_only_unseen_accuracy      : 0.703333
+    val_only_unseen_precision     : 0.713453
+    val_only_unseen_recall        : 0.703333
+    val_only_unseen_macro_f1      : 0.690217
+    -----------                   :
+    val_seen_accuracy             : 0.818333
+    val_seen_precision            : 0.832263
+    val_seen_recall               : 0.816327
+    val_seen_macro_f1             : 0.809153
+    -----------                   :
+    val_unseen_accuracy           : 0.605778
+    val_unseen_precision          : 0.637936
+    val_unseen_recall             : 0.605778
+    val_unseen_macro_f1           : 0.593095
+    -----------                   :
+    val_GZSL_seen_recall          : 0.866852
+    val_GZSL_unseen_recall        : 0.803778
+    val_GZSL_acc_hm               : 0.696193
+    val_GZSL_f1_hm                : 0.684478
+    -----------                   :
+********************    Best performance epoch 13 : 0.696193
+
+====================
+Train Epoch: 14 Batch id: 0 Loss: 0.683397
+Train Epoch: 14 Batch id: 4 Loss: 0.545056
+Train Epoch: 14 Batch id: 8 Loss: 0.592431
+Train Epoch: 14 Batch id: 12 Loss: 0.595916
+Train Epoch: 14 Batch id: 16 Loss: 0.633164
+===== valid
+    only_seen_accuracy            : 0.919815
+    only_seen_precision           : 0.919888
+    only_seen_recall              : 0.919771
+    only_seen_macro_f1            : 0.918445
+    -----------                   :
+    only_unseen_accuracy          : 0.698667
+    only_unseen_precision         : 0.70992
+    only_unseen_recall            : 0.698667
+    only_unseen_macro_f1          : 0.684035
+    -----------                   :
+    seen_accuracy                 : 0.825185
+    seen_precision                : 0.842571
+    seen_recall                   : 0.824224
+    seen_macro_f1                 : 0.812616
+    -----------                   :
+    unseen_accuracy               : 0.597111
+    unseen_precision              : 0.637037
+    unseen_recall                 : 0.597111
+    unseen_macro_f1               : 0.584516
+    -----------                   :
+    GZSL_seen_recall              : 0.868333
+    GZSL_unseen_recall            : 0.797556
+    GZSL_acc_hm                   : 0.692861
+    GZSL_f1_hm                    : 0.679945
+    -----------                   :
+tau : Parameter containing:
+tensor(12.2147, device='cuda:0', requires_grad=True)
+    epoch                         : 14
+    loss                          : 0.625669
+    seen_accuracy                 : 0.922455
+    seen_precision                : 0.901932
+    seen_recall                   : 0.859261
+    seen_macro_f1                 : 0.872675
+    -----------                   :
+    unseen_accuracy               : 0.99
+    unseen_precision              : 0.976477
+    unseen_recall                 : 0.972273
+    unseen_macro_f1               : 0.973829
+    -----------                   :
+    GZSL_seen_recall              : 0.954727
+    GZSL_unseen_recall            : 0.996
+    GZSL_acc_hm                   : 0.954085
+    GZSL_f1_hm                    : 0.919673
+    -----------                   :
+    val_only_seen_accuracy        : 0.919815
+    val_only_seen_precision       : 0.919888
+    val_only_seen_recall          : 0.919771
+    val_only_seen_macro_f1        : 0.918445
+    -----------                   :
+    val_only_unseen_accuracy      : 0.698667
+    val_only_unseen_precision     : 0.70992
+    val_only_unseen_recall        : 0.698667
+    val_only_unseen_macro_f1      : 0.684035
+    -----------                   :
+    val_seen_accuracy             : 0.825185
+    val_seen_precision            : 0.842571
+    val_seen_recall               : 0.824224
+    val_seen_macro_f1             : 0.812616
+    -----------                   :
+    val_unseen_accuracy           : 0.597111
+    val_unseen_precision          : 0.637037
+    val_unseen_recall             : 0.597111
+    val_unseen_macro_f1           : 0.584516
+    -----------                   :
+    val_GZSL_seen_recall          : 0.868333
+    val_GZSL_unseen_recall        : 0.797556
+    val_GZSL_acc_hm               : 0.692861
+    val_GZSL_f1_hm                : 0.679945
+    -----------                   :
+********************    Best performance epoch 13 : 0.696193
+
+====================
+Train Epoch: 15 Batch id: 0 Loss: 0.630587
+Train Epoch: 15 Batch id: 4 Loss: 0.600645
+Train Epoch: 15 Batch id: 8 Loss: 0.657084
+Train Epoch: 15 Batch id: 12 Loss: 0.502100
+Train Epoch: 15 Batch id: 16 Loss: 0.587568
+===== valid
+    only_seen_accuracy            : 0.92537
+    only_seen_precision           : 0.925308
+    only_seen_recall              : 0.924073
+    only_seen_macro_f1            : 0.923333
+    -----------                   :
+    only_unseen_accuracy          : 0.703111
+    only_unseen_precision         : 0.708857
+    only_unseen_recall            : 0.703111
+    only_unseen_macro_f1          : 0.687987
+    -----------                   :
+    seen_accuracy                 : 0.844074
+    seen_precision                : 0.8423
+    seen_recall                   : 0.842605
+    seen_macro_f1                 : 0.817552
+    -----------                   :
+    unseen_accuracy               : 0.591778
+    unseen_precision              : 0.649443
+    unseen_recall                 : 0.591778
+    unseen_macro_f1               : 0.589806
+    -----------                   :
+    GZSL_seen_recall              : 0.886667
+    GZSL_unseen_recall            : 0.776
+    GZSL_acc_hm                   : 0.69576
+    GZSL_f1_hm                    : 0.685251
+    -----------                   :
+tau : Parameter containing:
+tensor(12.3264, device='cuda:0', requires_grad=True)
+    epoch                         : 15
+    loss                          : 0.594633
+    seen_accuracy                 : 0.929364
+    seen_precision                : 0.908062
+    seen_recall                   : 0.869836
+    seen_macro_f1                 : 0.881825
+    -----------                   :
+    unseen_accuracy               : 0.985
+    unseen_precision              : 0.956381
+    unseen_recall                 : 0.947657
+    unseen_macro_f1               : 0.950904
+    -----------                   :
+    GZSL_seen_recall              : 0.961636
+    GZSL_unseen_recall            : 0.991
+    GZSL_acc_hm                   : 0.957432
+    GZSL_f1_hm                    : 0.920038
+    -----------                   :
+    val_only_seen_accuracy        : 0.92537
+    val_only_seen_precision       : 0.925308
+    val_only_seen_recall          : 0.924073
+    val_only_seen_macro_f1        : 0.923333
+    -----------                   :
+    val_only_unseen_accuracy      : 0.703111
+    val_only_unseen_precision     : 0.708857
+    val_only_unseen_recall        : 0.703111
+    val_only_unseen_macro_f1      : 0.687987
+    -----------                   :
+    val_seen_accuracy             : 0.844074
+    val_seen_precision            : 0.8423
+    val_seen_recall               : 0.842605
+    val_seen_macro_f1             : 0.817552
+    -----------                   :
+    val_unseen_accuracy           : 0.591778
+    val_unseen_precision          : 0.649443
+    val_unseen_recall             : 0.591778
+    val_unseen_macro_f1           : 0.589806
+    -----------                   :
+    val_GZSL_seen_recall          : 0.886667
+    val_GZSL_unseen_recall        : 0.776
+    val_GZSL_acc_hm               : 0.69576
+    val_GZSL_f1_hm                : 0.685251
+    -----------                   :
+********************    Best performance epoch 13 : 0.696193
+
+====================
+Train Epoch: 16 Batch id: 0 Loss: 0.527336
+Train Epoch: 16 Batch id: 4 Loss: 0.547338
+Train Epoch: 16 Batch id: 8 Loss: 0.598167
+Train Epoch: 16 Batch id: 12 Loss: 0.546220
+Train Epoch: 16 Batch id: 16 Loss: 0.517657
+===== valid
+    only_seen_accuracy            : 0.925556
+    only_seen_precision           : 0.926599
+    only_seen_recall              : 0.924951
+    only_seen_macro_f1            : 0.924132
+    -----------                   :
+    only_unseen_accuracy          : 0.707333
+    only_unseen_precision         : 0.714036
+    only_unseen_recall            : 0.707333
+    only_unseen_macro_f1          : 0.693205
+    -----------                   :
+    seen_accuracy                 : 0.842778
+    seen_precision                : 0.83756
+    seen_recall                   : 0.841299
+    seen_macro_f1                 : 0.818261
+    -----------                   :
+    unseen_accuracy               : 0.590889
+    unseen_precision              : 0.648891
+    unseen_recall                 : 0.590889
+    unseen_macro_f1               : 0.588441
+    -----------                   :
+    GZSL_seen_recall              : 0.885926
+    GZSL_unseen_recall            : 0.779333
+    GZSL_acc_hm                   : 0.694705
+    GZSL_f1_hm                    : 0.684577
+    -----------                   :
+tau : Parameter containing:
+tensor(12.4318, device='cuda:0', requires_grad=True)
+    epoch                         : 16
+    loss                          : 0.548691
+    seen_accuracy                 : 0.939545
+    seen_precision                : 0.918012
+    seen_recall                   : 0.887714
+    seen_macro_f1                 : 0.89708
+    -----------                   :
+    unseen_accuracy               : 0.982
+    unseen_precision              : 0.959662
+    unseen_recall                 : 0.951909
+    unseen_macro_f1               : 0.954667
+    -----------                   :
+    GZSL_seen_recall              : 0.97
+    GZSL_unseen_recall            : 0.993
+    GZSL_acc_hm                   : 0.963406
+    GZSL_f1_hm                    : 0.92504
+    -----------                   :
+    val_only_seen_accuracy        : 0.925556
+    val_only_seen_precision       : 0.926599
+    val_only_seen_recall          : 0.924951
+    val_only_seen_macro_f1        : 0.924132
+    -----------                   :
+    val_only_unseen_accuracy      : 0.707333
+    val_only_unseen_precision     : 0.714036
+    val_only_unseen_recall        : 0.707333
+    val_only_unseen_macro_f1      : 0.693205
+    -----------                   :
+    val_seen_accuracy             : 0.842778
+    val_seen_precision            : 0.83756
+    val_seen_recall               : 0.841299
+    val_seen_macro_f1             : 0.818261
+    -----------                   :
+    val_unseen_accuracy           : 0.590889
+    val_unseen_precision          : 0.648891
+    val_unseen_recall             : 0.590889
+    val_unseen_macro_f1           : 0.588441
+    -----------                   :
+    val_GZSL_seen_recall          : 0.885926
+    val_GZSL_unseen_recall        : 0.779333
+    val_GZSL_acc_hm               : 0.694705
+    val_GZSL_f1_hm                : 0.684577
+    -----------                   :
+********************    Best performance epoch 13 : 0.696193
+
+====================
+Train Epoch: 17 Batch id: 0 Loss: 0.510120
+Train Epoch: 17 Batch id: 4 Loss: 0.447132
+Train Epoch: 17 Batch id: 8 Loss: 0.463146
+Train Epoch: 17 Batch id: 12 Loss: 0.518293
+Train Epoch: 17 Batch id: 16 Loss: 0.455628
+===== valid
+    only_seen_accuracy            : 0.93037
+    only_seen_precision           : 0.929921
+    only_seen_recall              : 0.929841
+    only_seen_macro_f1            : 0.928912
+    -----------                   :
+    only_unseen_accuracy          : 0.711111
+    only_unseen_precision         : 0.716788
+    only_unseen_recall            : 0.711111
+    only_unseen_macro_f1          : 0.696678
+    -----------                   :
+    seen_accuracy                 : 0.852407
+    seen_precision                : 0.833059
+    seen_recall                   : 0.851183
+    seen_macro_f1                 : 0.825414
+    -----------                   :
+    unseen_accuracy               : 0.6
+    unseen_precision              : 0.652897
+    unseen_recall                 : 0.6
+    unseen_macro_f1               : 0.598849
+    -----------                   :
+    GZSL_seen_recall              : 0.891667
+    GZSL_unseen_recall            : 0.787556
+    GZSL_acc_hm                   : 0.704271
+    GZSL_f1_hm                    : 0.69411
+    -----------                   :
+tau : Parameter containing:
+tensor(12.5320, device='cuda:0', requires_grad=True)
+    epoch                         : 17
+    loss                          : 0.496385
+    seen_accuracy                 : 0.944455
+    seen_precision                : 0.918556
+    seen_recall                   : 0.888556
+    seen_macro_f1                 : 0.897712
+    -----------                   :
+    unseen_accuracy               : 0.985
+    unseen_precision              : 0.956677
+    unseen_recall                 : 0.946894
+    unseen_macro_f1               : 0.950537
+    -----------                   :
+    GZSL_seen_recall              : 0.970545
+    GZSL_unseen_recall            : 0.99
+    GZSL_acc_hm                   : 0.96206
+    GZSL_f1_hm                    : 0.916593
+    -----------                   :
+    val_only_seen_accuracy        : 0.93037
+    val_only_seen_precision       : 0.929921
+    val_only_seen_recall          : 0.929841
+    val_only_seen_macro_f1        : 0.928912
+    -----------                   :
+    val_only_unseen_accuracy      : 0.711111
+    val_only_unseen_precision     : 0.716788
+    val_only_unseen_recall        : 0.711111
+    val_only_unseen_macro_f1      : 0.696678
+    -----------                   :
+    val_seen_accuracy             : 0.852407
+    val_seen_precision            : 0.833059
+    val_seen_recall               : 0.851183
+    val_seen_macro_f1             : 0.825414
+    -----------                   :
+    val_unseen_accuracy           : 0.6
+    val_unseen_precision          : 0.652897
+    val_unseen_recall             : 0.6
+    val_unseen_macro_f1           : 0.598849
+    -----------                   :
+    val_GZSL_seen_recall          : 0.891667
+    val_GZSL_unseen_recall        : 0.787556
+    val_GZSL_acc_hm               : 0.704271
+    val_GZSL_f1_hm                : 0.69411
+    -----------                   :
+********************    Best performance epoch 17 : 0.704271
+
+====================
+Train Epoch: 18 Batch id: 0 Loss: 0.411063
+Train Epoch: 18 Batch id: 4 Loss: 0.453700
+Train Epoch: 18 Batch id: 8 Loss: 0.548217
+Train Epoch: 18 Batch id: 12 Loss: 0.449094
+Train Epoch: 18 Batch id: 16 Loss: 0.393696
+===== valid
+    only_seen_accuracy            : 0.933148
+    only_seen_precision           : 0.932904
+    only_seen_recall              : 0.932373
+    only_seen_macro_f1            : 0.931517
+    -----------                   :
+    only_unseen_accuracy          : 0.709111
+    only_unseen_precision         : 0.720512
+    only_unseen_recall            : 0.709111
+    only_unseen_macro_f1          : 0.696769
+    -----------                   :
+    seen_accuracy                 : 0.85
+    seen_precision                : 0.836244
+    seen_recall                   : 0.848205
+    seen_macro_f1                 : 0.824711
+    -----------                   :
+    unseen_accuracy               : 0.596
+    unseen_precision              : 0.653675
+    unseen_recall                 : 0.596
+    unseen_macro_f1               : 0.594777
+    -----------                   :
+    GZSL_seen_recall              : 0.887778
+    GZSL_unseen_recall            : 0.784444
+    GZSL_acc_hm                   : 0.700691
+    GZSL_f1_hm                    : 0.691121
+    -----------                   :
+tau : Parameter containing:
+tensor(12.6302, device='cuda:0', requires_grad=True)
+    epoch                         : 18
+    loss                          : 0.477607
+    seen_accuracy                 : 0.95
+    seen_precision                : 0.921716
+    seen_recall                   : 0.894126
+    seen_macro_f1                 : 0.903457
+    -----------                   :
+    unseen_accuracy               : 0.984
+    unseen_precision              : 0.942879
+    unseen_recall                 : 0.931636
+    unseen_macro_f1               : 0.936388
+    -----------                   :
+    GZSL_seen_recall              : 0.973909
+    GZSL_unseen_recall            : 0.988
+    GZSL_acc_hm                   : 0.967162
+    GZSL_f1_hm                    : 0.922702
+    -----------                   :
+    val_only_seen_accuracy        : 0.933148
+    val_only_seen_precision       : 0.932904
+    val_only_seen_recall          : 0.932373
+    val_only_seen_macro_f1        : 0.931517
+    -----------                   :
+    val_only_unseen_accuracy      : 0.709111
+    val_only_unseen_precision     : 0.720512
+    val_only_unseen_recall        : 0.709111
+    val_only_unseen_macro_f1      : 0.696769
+    -----------                   :
+    val_seen_accuracy             : 0.85
+    val_seen_precision            : 0.836244
+    val_seen_recall               : 0.848205
+    val_seen_macro_f1             : 0.824711
+    -----------                   :
+    val_unseen_accuracy           : 0.596
+    val_unseen_precision          : 0.653675
+    val_unseen_recall             : 0.596
+    val_unseen_macro_f1           : 0.594777
+    -----------                   :
+    val_GZSL_seen_recall          : 0.887778
+    val_GZSL_unseen_recall        : 0.784444
+    val_GZSL_acc_hm               : 0.700691
+    val_GZSL_f1_hm                : 0.691121
+    -----------                   :
+********************    Best performance epoch 17 : 0.704271
+
+====================
+Train Epoch: 19 Batch id: 0 Loss: 0.456871
+Train Epoch: 19 Batch id: 4 Loss: 0.450704
+Train Epoch: 19 Batch id: 8 Loss: 0.325390
+Train Epoch: 19 Batch id: 12 Loss: 0.435144
+Train Epoch: 19 Batch id: 16 Loss: 0.379923
+===== valid
+    only_seen_accuracy            : 0.930741
+    only_seen_precision           : 0.930542
+    only_seen_recall              : 0.930483
+    only_seen_macro_f1            : 0.929252
+    -----------                   :
+    only_unseen_accuracy          : 0.706444
+    only_unseen_precision         : 0.716882
+    only_unseen_recall            : 0.706444
+    only_unseen_macro_f1          : 0.693037
+    -----------                   :
+    seen_accuracy                 : 0.849815
+    seen_precision                : 0.827149
+    seen_recall                   : 0.848439
+    seen_macro_f1                 : 0.820926
+    -----------                   :
+    unseen_accuracy               : 0.590889
+    unseen_precision              : 0.657936
+    unseen_recall                 : 0.590889
+    unseen_macro_f1               : 0.59216
+    -----------                   :
+    GZSL_seen_recall              : 0.892222
+    GZSL_unseen_recall            : 0.776889
+    GZSL_acc_hm                   : 0.697084
+    GZSL_f1_hm                    : 0.688025
+    -----------                   :
+tau : Parameter containing:
+tensor(12.7245, device='cuda:0', requires_grad=True)
+    epoch                         : 19
+    loss                          : 0.450154
+    seen_accuracy                 : 0.956364
+    seen_precision                : 0.930802
+    seen_recall                   : 0.907161
+    seen_macro_f1                 : 0.914293
+    -----------                   :
+    unseen_accuracy               : 0.985
+    unseen_precision              : 0.96252
+    unseen_recall                 : 0.955206
+    unseen_macro_f1               : 0.957965
+    -----------                   :
+    GZSL_seen_recall              : 0.977818
+    GZSL_unseen_recall            : 0.992
+    GZSL_acc_hm                   : 0.969773
+    GZSL_f1_hm                    : 0.938099
+    -----------                   :
+    val_only_seen_accuracy        : 0.930741
+    val_only_seen_precision       : 0.930542
+    val_only_seen_recall          : 0.930483
+    val_only_seen_macro_f1        : 0.929252
+    -----------                   :
+    val_only_unseen_accuracy      : 0.706444
+    val_only_unseen_precision     : 0.716882
+    val_only_unseen_recall        : 0.706444
+    val_only_unseen_macro_f1      : 0.693037
+    -----------                   :
+    val_seen_accuracy             : 0.849815
+    val_seen_precision            : 0.827149
+    val_seen_recall               : 0.848439
+    val_seen_macro_f1             : 0.820926
+    -----------                   :
+    val_unseen_accuracy           : 0.590889
+    val_unseen_precision          : 0.657936
+    val_unseen_recall             : 0.590889
+    val_unseen_macro_f1           : 0.59216
+    -----------                   :
+    val_GZSL_seen_recall          : 0.892222
+    val_GZSL_unseen_recall        : 0.776889
+    val_GZSL_acc_hm               : 0.697084
+    val_GZSL_f1_hm                : 0.688025
+    -----------                   :
+********************    Best performance epoch 17 : 0.704271
+
+====================
+Train Epoch: 20 Batch id: 0 Loss: 0.339880
+Train Epoch: 20 Batch id: 4 Loss: 0.326768
+Train Epoch: 20 Batch id: 8 Loss: 0.367353
+Train Epoch: 20 Batch id: 12 Loss: 0.377596
+Train Epoch: 20 Batch id: 16 Loss: 0.400854
+===== valid
+    only_seen_accuracy            : 0.931481
+    only_seen_precision           : 0.930934
+    only_seen_recall              : 0.931003
+    only_seen_macro_f1            : 0.929708
+    -----------                   :
+    only_unseen_accuracy          : 0.715556
+    only_unseen_precision         : 0.72492
+    only_unseen_recall            : 0.715556
+    only_unseen_macro_f1          : 0.703524
+    -----------                   :
+    seen_accuracy                 : 0.857778
+    seen_precision                : 0.827417
+    seen_recall                   : 0.856327
+    seen_macro_f1                 : 0.826463
+    -----------                   :
+    unseen_accuracy               : 0.597556
+    unseen_precision              : 0.661307
+    unseen_recall                 : 0.597556
+    unseen_macro_f1               : 0.601654
+    -----------                   :
+    GZSL_seen_recall              : 0.899444
+    GZSL_unseen_recall            : 0.780889
+    GZSL_acc_hm                   : 0.704402
+    GZSL_f1_hm                    : 0.696363
+    -----------                   :
+tau : Parameter containing:
+tensor(12.8163, device='cuda:0', requires_grad=True)
+    epoch                         : 20
+    loss                          : 0.405889
+    seen_accuracy                 : 0.962
+    seen_precision                : 0.933265
+    seen_recall                   : 0.91246
+    seen_macro_f1                 : 0.91925
+    -----------                   :
+    unseen_accuracy               : 0.988
+    unseen_precision              : 0.956742
+    unseen_recall                 : 0.948091
+    unseen_macro_f1               : 0.951699
+    -----------                   :
+    GZSL_seen_recall              : 0.979727
+    GZSL_unseen_recall            : 0.991
+    GZSL_acc_hm                   : 0.975747
+    GZSL_f1_hm                    : 0.939646
+    -----------                   :
+    val_only_seen_accuracy        : 0.931481
+    val_only_seen_precision       : 0.930934
+    val_only_seen_recall          : 0.931003
+    val_only_seen_macro_f1        : 0.929708
+    -----------                   :
+    val_only_unseen_accuracy      : 0.715556
+    val_only_unseen_precision     : 0.72492
+    val_only_unseen_recall        : 0.715556
+    val_only_unseen_macro_f1      : 0.703524
+    -----------                   :
+    val_seen_accuracy             : 0.857778
+    val_seen_precision            : 0.827417
+    val_seen_recall               : 0.856327
+    val_seen_macro_f1             : 0.826463
+    -----------                   :
+    val_unseen_accuracy           : 0.597556
+    val_unseen_precision          : 0.661307
+    val_unseen_recall             : 0.597556
+    val_unseen_macro_f1           : 0.601654
+    -----------                   :
+    val_GZSL_seen_recall          : 0.899444
+    val_GZSL_unseen_recall        : 0.780889
+    val_GZSL_acc_hm               : 0.704402
+    val_GZSL_f1_hm                : 0.696363
+    -----------                   :
+********************    Best performance epoch 20 : 0.704402
+
+====================
+Train Epoch: 21 Batch id: 0 Loss: 0.312443
+Train Epoch: 21 Batch id: 4 Loss: 0.375386
+Train Epoch: 21 Batch id: 8 Loss: 0.345800
+Train Epoch: 21 Batch id: 12 Loss: 0.384312
+Train Epoch: 21 Batch id: 16 Loss: 0.300947
+===== valid
+    only_seen_accuracy            : 0.936667
+    only_seen_precision           : 0.936088
+    only_seen_recall              : 0.936021
+    only_seen_macro_f1            : 0.935057
+    -----------                   :
+    only_unseen_accuracy          : 0.710444
+    only_unseen_precision         : 0.724223
+    only_unseen_recall            : 0.710444
+    only_unseen_macro_f1          : 0.698362
+    -----------                   :
+    seen_accuracy                 : 0.865926
+    seen_precision                : 0.827611
+    seen_recall                   : 0.86411
+    seen_macro_f1                 : 0.831713
+    -----------                   :
+    unseen_accuracy               : 0.590222
+    unseen_precision              : 0.667554
+    unseen_recall                 : 0.590222
+    unseen_macro_f1               : 0.59652
+    -----------                   :
+    GZSL_seen_recall              : 0.903333
+    GZSL_unseen_recall            : 0.770222
+    GZSL_acc_hm                   : 0.701973
+    GZSL_f1_hm                    : 0.694751
+    -----------                   :
+tau : Parameter containing:
+tensor(12.9050, device='cuda:0', requires_grad=True)
+    epoch                         : 21
+    loss                          : 0.358797
+    seen_accuracy                 : 0.967545
+    seen_precision                : 0.940269
+    seen_recall                   : 0.922809
+    seen_macro_f1                 : 0.928952
+    -----------                   :
+    unseen_accuracy               : 0.988
+    unseen_precision              : 0.968152
+    unseen_recall                 : 0.962182
+    unseen_macro_f1               : 0.964498
+    -----------                   :
+    GZSL_seen_recall              : 0.982909
+    GZSL_unseen_recall            : 0.994
+    GZSL_acc_hm                   : 0.977583
+    GZSL_f1_hm                    : 0.947329
+    -----------                   :
+    val_only_seen_accuracy        : 0.936667
+    val_only_seen_precision       : 0.936088
+    val_only_seen_recall          : 0.936021
+    val_only_seen_macro_f1        : 0.935057
+    -----------                   :
+    val_only_unseen_accuracy      : 0.710444
+    val_only_unseen_precision     : 0.724223
+    val_only_unseen_recall        : 0.710444
+    val_only_unseen_macro_f1      : 0.698362
+    -----------                   :
+    val_seen_accuracy             : 0.865926
+    val_seen_precision            : 0.827611
+    val_seen_recall               : 0.86411
+    val_seen_macro_f1             : 0.831713
+    -----------                   :
+    val_unseen_accuracy           : 0.590222
+    val_unseen_precision          : 0.667554
+    val_unseen_recall             : 0.590222
+    val_unseen_macro_f1           : 0.59652
+    -----------                   :
+    val_GZSL_seen_recall          : 0.903333
+    val_GZSL_unseen_recall        : 0.770222
+    val_GZSL_acc_hm               : 0.701973
+    val_GZSL_f1_hm                : 0.694751
+    -----------                   :
+********************    Best performance epoch 20 : 0.704402
+
+====================
+Train Epoch: 22 Batch id: 0 Loss: 0.326987
+Train Epoch: 22 Batch id: 4 Loss: 0.368808
+Train Epoch: 22 Batch id: 8 Loss: 0.393456
+Train Epoch: 22 Batch id: 12 Loss: 0.343498
+Train Epoch: 22 Batch id: 16 Loss: 0.387970
+===== valid
+    only_seen_accuracy            : 0.935926
+    only_seen_precision           : 0.935997
+    only_seen_recall              : 0.935499
+    only_seen_macro_f1            : 0.934544
+    -----------                   :
+    only_unseen_accuracy          : 0.710889
+    only_unseen_precision         : 0.72318
+    only_unseen_recall            : 0.710889
+    only_unseen_macro_f1          : 0.698602
+    -----------                   :
+    seen_accuracy                 : 0.865926
+    seen_precision                : 0.845943
+    seen_recall                   : 0.865104
+    seen_macro_f1                 : 0.832429
+    -----------                   :
+    unseen_accuracy               : 0.589556
+    unseen_precision              : 0.662824
+    unseen_recall                 : 0.589556
+    unseen_macro_f1               : 0.596116
+    -----------                   :
+    GZSL_seen_recall              : 0.902963
+    GZSL_unseen_recall            : 0.770667
+    GZSL_acc_hm                   : 0.701501
+    GZSL_f1_hm                    : 0.694727
+    -----------                   :
+tau : Parameter containing:
+tensor(12.9911, device='cuda:0', requires_grad=True)
+    epoch                         : 22
+    loss                          : 0.356759
+    seen_accuracy                 : 0.966909
+    seen_precision                : 0.943819
+    seen_recall                   : 0.92475
+    seen_macro_f1                 : 0.931041
+    -----------                   :
+    unseen_accuracy               : 0.989
+    unseen_precision              : 0.972348
+    unseen_recall                 : 0.966818
+    unseen_macro_f1               : 0.968779
+    -----------                   :
+    GZSL_seen_recall              : 0.981273
+    GZSL_unseen_recall            : 0.995
+    GZSL_acc_hm                   : 0.976541
+    GZSL_f1_hm                    : 0.942515
+    -----------                   :
+    val_only_seen_accuracy        : 0.935926
+    val_only_seen_precision       : 0.935997
+    val_only_seen_recall          : 0.935499
+    val_only_seen_macro_f1        : 0.934544
+    -----------                   :
+    val_only_unseen_accuracy      : 0.710889
+    val_only_unseen_precision     : 0.72318
+    val_only_unseen_recall        : 0.710889
+    val_only_unseen_macro_f1      : 0.698602
+    -----------                   :
+    val_seen_accuracy             : 0.865926
+    val_seen_precision            : 0.845943
+    val_seen_recall               : 0.865104
+    val_seen_macro_f1             : 0.832429
+    -----------                   :
+    val_unseen_accuracy           : 0.589556
+    val_unseen_precision          : 0.662824
+    val_unseen_recall             : 0.589556
+    val_unseen_macro_f1           : 0.596116
+    -----------                   :
+    val_GZSL_seen_recall          : 0.902963
+    val_GZSL_unseen_recall        : 0.770667
+    val_GZSL_acc_hm               : 0.701501
+    val_GZSL_f1_hm                : 0.694727
+    -----------                   :
+********************    Best performance epoch 20 : 0.704402
+
+====================
+Train Epoch: 23 Batch id: 0 Loss: 0.290310
+Train Epoch: 23 Batch id: 4 Loss: 0.579210
+Train Epoch: 23 Batch id: 8 Loss: 0.277091
+Train Epoch: 23 Batch id: 12 Loss: 0.317529
+Train Epoch: 23 Batch id: 16 Loss: 0.349289
+===== valid
+    only_seen_accuracy            : 0.935926
+    only_seen_precision           : 0.93598
+    only_seen_recall              : 0.935735
+    only_seen_macro_f1            : 0.934968
+    -----------                   :
+    only_unseen_accuracy          : 0.716889
+    only_unseen_precision         : 0.727774
+    only_unseen_recall            : 0.716889
+    only_unseen_macro_f1          : 0.705387
+    -----------                   :
+    seen_accuracy                 : 0.877963
+    seen_precision                : 0.831575
+    seen_recall                   : 0.877493
+    seen_macro_f1                 : 0.835001
+    -----------                   :
+    unseen_accuracy               : 0.582889
+    unseen_precision              : 0.681977
+    unseen_recall                 : 0.582889
+    unseen_macro_f1               : 0.602287
+    -----------                   :
+    GZSL_seen_recall              : 0.918333
+    GZSL_unseen_recall            : 0.747556
+    GZSL_acc_hm                   : 0.700625
+    GZSL_f1_hm                    : 0.699804
+    -----------                   :
+tau : Parameter containing:
+tensor(13.0760, device='cuda:0', requires_grad=True)
+    epoch                         : 23
+    loss                          : 0.339985
+    seen_accuracy                 : 0.968364
+    seen_precision                : 0.943995
+    seen_recall                   : 0.926073
+    seen_macro_f1                 : 0.932068
+    -----------                   :
+    unseen_accuracy               : 0.989
+    unseen_precision              : 0.969596
+    unseen_recall                 : 0.963515
+    unseen_macro_f1               : 0.965825
+    -----------                   :
+    GZSL_seen_recall              : 0.983636
+    GZSL_unseen_recall            : 0.994
+    GZSL_acc_hm                   : 0.980461
+    GZSL_f1_hm                    : 0.953149
+    -----------                   :
+    val_only_seen_accuracy        : 0.935926
+    val_only_seen_precision       : 0.93598
+    val_only_seen_recall          : 0.935735
+    val_only_seen_macro_f1        : 0.934968
+    -----------                   :
+    val_only_unseen_accuracy      : 0.716889
+    val_only_unseen_precision     : 0.727774
+    val_only_unseen_recall        : 0.716889
+    val_only_unseen_macro_f1      : 0.705387
+    -----------                   :
+    val_seen_accuracy             : 0.877963
+    val_seen_precision            : 0.831575
+    val_seen_recall               : 0.877493
+    val_seen_macro_f1             : 0.835001
+    -----------                   :
+    val_unseen_accuracy           : 0.582889
+    val_unseen_precision          : 0.681977
+    val_unseen_recall             : 0.582889
+    val_unseen_macro_f1           : 0.602287
+    -----------                   :
+    val_GZSL_seen_recall          : 0.918333
+    val_GZSL_unseen_recall        : 0.747556
+    val_GZSL_acc_hm               : 0.700625
+    val_GZSL_f1_hm                : 0.699804
+    -----------                   :
+********************    Best performance epoch 20 : 0.704402
+
+====================
+Train Epoch: 24 Batch id: 0 Loss: 0.237955
+Train Epoch: 24 Batch id: 4 Loss: 0.310973
+Train Epoch: 24 Batch id: 8 Loss: 0.251299
+Train Epoch: 24 Batch id: 12 Loss: 0.300376
+Train Epoch: 24 Batch id: 16 Loss: 0.345417
+===== valid
+    only_seen_accuracy            : 0.939259
+    only_seen_precision           : 0.939116
+    only_seen_recall              : 0.938692
+    only_seen_macro_f1            : 0.938043
+    -----------                   :
+    only_unseen_accuracy          : 0.718889
+    only_unseen_precision         : 0.731537
+    only_unseen_recall            : 0.718889
+    only_unseen_macro_f1          : 0.707029
+    -----------                   :
+    seen_accuracy                 : 0.874444
+    seen_precision                : 0.846569
+    seen_recall                   : 0.873541
+    seen_macro_f1                 : 0.839992
+    -----------                   :
+    unseen_accuracy               : 0.599333
+    unseen_precision              : 0.678432
+    unseen_recall                 : 0.599333
+    unseen_macro_f1               : 0.608787
+    -----------                   :
+    GZSL_seen_recall              : 0.910926
+    GZSL_unseen_recall            : 0.770667
+    GZSL_acc_hm                   : 0.711211
+    GZSL_f1_hm                    : 0.705941
+    -----------                   :
+tau : Parameter containing:
+tensor(13.1578, device='cuda:0', requires_grad=True)
+    epoch                         : 24
+    loss                          : 0.299616
+    seen_accuracy                 : 0.973545
+    seen_precision                : 0.952932
+    seen_recall                   : 0.939552
+    seen_macro_f1                 : 0.943924
+    -----------                   :
+    unseen_accuracy               : 0.992
+    unseen_precision              : 0.974924
+    unseen_recall                 : 0.969909
+    unseen_macro_f1               : 0.971901
+    -----------                   :
+    GZSL_seen_recall              : 0.988455
+    GZSL_unseen_recall            : 0.995
+    GZSL_acc_hm                   : 0.983249
+    GZSL_f1_hm                    : 0.958962
+    -----------                   :
+    val_only_seen_accuracy        : 0.939259
+    val_only_seen_precision       : 0.939116
+    val_only_seen_recall          : 0.938692
+    val_only_seen_macro_f1        : 0.938043
+    -----------                   :
+    val_only_unseen_accuracy      : 0.718889
+    val_only_unseen_precision     : 0.731537
+    val_only_unseen_recall        : 0.718889
+    val_only_unseen_macro_f1      : 0.707029
+    -----------                   :
+    val_seen_accuracy             : 0.874444
+    val_seen_precision            : 0.846569
+    val_seen_recall               : 0.873541
+    val_seen_macro_f1             : 0.839992
+    -----------                   :
+    val_unseen_accuracy           : 0.599333
+    val_unseen_precision          : 0.678432
+    val_unseen_recall             : 0.599333
+    val_unseen_macro_f1           : 0.608787
+    -----------                   :
+    val_GZSL_seen_recall          : 0.910926
+    val_GZSL_unseen_recall        : 0.770667
+    val_GZSL_acc_hm               : 0.711211
+    val_GZSL_f1_hm                : 0.705941
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 25 Batch id: 0 Loss: 0.254763
+Train Epoch: 25 Batch id: 4 Loss: 0.317110
+Train Epoch: 25 Batch id: 8 Loss: 0.249797
+Train Epoch: 25 Batch id: 12 Loss: 0.245570
+Train Epoch: 25 Batch id: 16 Loss: 0.245975
+===== valid
+    only_seen_accuracy            : 0.938519
+    only_seen_precision           : 0.938341
+    only_seen_recall              : 0.937599
+    only_seen_macro_f1            : 0.936911
+    -----------                   :
+    only_unseen_accuracy          : 0.719556
+    only_unseen_precision         : 0.732929
+    only_unseen_recall            : 0.719556
+    only_unseen_macro_f1          : 0.707113
+    -----------                   :
+    seen_accuracy                 : 0.874815
+    seen_precision                : 0.83715
+    seen_recall                   : 0.873084
+    seen_macro_f1                 : 0.836745
+    -----------                   :
+    unseen_accuracy               : 0.592222
+    unseen_precision              : 0.679461
+    unseen_recall                 : 0.592222
+    unseen_macro_f1               : 0.602935
+    -----------                   :
+    GZSL_seen_recall              : 0.912407
+    GZSL_unseen_recall            : 0.760889
+    GZSL_acc_hm                   : 0.7063
+    GZSL_f1_hm                    : 0.700854
+    -----------                   :
+tau : Parameter containing:
+tensor(13.2377, device='cuda:0', requires_grad=True)
+    epoch                         : 25
+    loss                          : 0.301551
+    seen_accuracy                 : 0.974727
+    seen_precision                : 0.951091
+    seen_recall                   : 0.937948
+    seen_macro_f1                 : 0.942376
+    -----------                   :
+    unseen_accuracy               : 0.991
+    unseen_precision              : 0.966667
+    unseen_recall                 : 0.96
+    unseen_macro_f1               : 0.962684
+    -----------                   :
+    GZSL_seen_recall              : 0.988545
+    GZSL_unseen_recall            : 0.993
+    GZSL_acc_hm                   : 0.981874
+    GZSL_f1_hm                    : 0.950173
+    -----------                   :
+    val_only_seen_accuracy        : 0.938519
+    val_only_seen_precision       : 0.938341
+    val_only_seen_recall          : 0.937599
+    val_only_seen_macro_f1        : 0.936911
+    -----------                   :
+    val_only_unseen_accuracy      : 0.719556
+    val_only_unseen_precision     : 0.732929
+    val_only_unseen_recall        : 0.719556
+    val_only_unseen_macro_f1      : 0.707113
+    -----------                   :
+    val_seen_accuracy             : 0.874815
+    val_seen_precision            : 0.83715
+    val_seen_recall               : 0.873084
+    val_seen_macro_f1             : 0.836745
+    -----------                   :
+    val_unseen_accuracy           : 0.592222
+    val_unseen_precision          : 0.679461
+    val_unseen_recall             : 0.592222
+    val_unseen_macro_f1           : 0.602935
+    -----------                   :
+    val_GZSL_seen_recall          : 0.912407
+    val_GZSL_unseen_recall        : 0.760889
+    val_GZSL_acc_hm               : 0.7063
+    val_GZSL_f1_hm                : 0.700854
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 26 Batch id: 0 Loss: 0.311438
+Train Epoch: 26 Batch id: 4 Loss: 0.246372
+Train Epoch: 26 Batch id: 8 Loss: 0.250237
+Train Epoch: 26 Batch id: 12 Loss: 0.259641
+Train Epoch: 26 Batch id: 16 Loss: 0.285856
+===== valid
+    only_seen_accuracy            : 0.939074
+    only_seen_precision           : 0.939775
+    only_seen_recall              : 0.938473
+    only_seen_macro_f1            : 0.938039
+    -----------                   :
+    only_unseen_accuracy          : 0.712889
+    only_unseen_precision         : 0.727094
+    only_unseen_recall            : 0.712889
+    only_unseen_macro_f1          : 0.699589
+    -----------                   :
+    seen_accuracy                 : 0.873148
+    seen_precision                : 0.842823
+    seen_recall                   : 0.871822
+    seen_macro_f1                 : 0.833628
+    -----------                   :
+    unseen_accuracy               : 0.584889
+    unseen_precision              : 0.672694
+    unseen_recall                 : 0.584889
+    unseen_macro_f1               : 0.597127
+    -----------                   :
+    GZSL_seen_recall              : 0.910741
+    GZSL_unseen_recall            : 0.756
+    GZSL_acc_hm                   : 0.700523
+    GZSL_f1_hm                    : 0.69583
+    -----------                   :
+tau : Parameter containing:
+tensor(13.3153, device='cuda:0', requires_grad=True)
+    epoch                         : 26
+    loss                          : 0.290446
+    seen_accuracy                 : 0.978455
+    seen_precision                : 0.953
+    seen_recall                   : 0.941419
+    seen_macro_f1                 : 0.945497
+    -----------                   :
+    unseen_accuracy               : 0.992
+    unseen_precision              : 0.985909
+    unseen_recall                 : 0.983091
+    unseen_macro_f1               : 0.983561
+    -----------                   :
+    GZSL_seen_recall              : 0.989636
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.985599
+    GZSL_f1_hm                    : 0.965522
+    -----------                   :
+    val_only_seen_accuracy        : 0.939074
+    val_only_seen_precision       : 0.939775
+    val_only_seen_recall          : 0.938473
+    val_only_seen_macro_f1        : 0.938039
+    -----------                   :
+    val_only_unseen_accuracy      : 0.712889
+    val_only_unseen_precision     : 0.727094
+    val_only_unseen_recall        : 0.712889
+    val_only_unseen_macro_f1      : 0.699589
+    -----------                   :
+    val_seen_accuracy             : 0.873148
+    val_seen_precision            : 0.842823
+    val_seen_recall               : 0.871822
+    val_seen_macro_f1             : 0.833628
+    -----------                   :
+    val_unseen_accuracy           : 0.584889
+    val_unseen_precision          : 0.672694
+    val_unseen_recall             : 0.584889
+    val_unseen_macro_f1           : 0.597127
+    -----------                   :
+    val_GZSL_seen_recall          : 0.910741
+    val_GZSL_unseen_recall        : 0.756
+    val_GZSL_acc_hm               : 0.700523
+    val_GZSL_f1_hm                : 0.69583
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 27 Batch id: 0 Loss: 0.263965
+Train Epoch: 27 Batch id: 4 Loss: 0.258437
+Train Epoch: 27 Batch id: 8 Loss: 0.250183
+Train Epoch: 27 Batch id: 12 Loss: 0.228735
+Train Epoch: 27 Batch id: 16 Loss: 0.219567
+===== valid
+    only_seen_accuracy            : 0.942407
+    only_seen_precision           : 0.942169
+    only_seen_recall              : 0.942102
+    only_seen_macro_f1            : 0.941174
+    -----------                   :
+    only_unseen_accuracy          : 0.719111
+    only_unseen_precision         : 0.732682
+    only_unseen_recall            : 0.719111
+    only_unseen_macro_f1          : 0.705963
+    -----------                   :
+    seen_accuracy                 : 0.87537
+    seen_precision                : 0.843458
+    seen_recall                   : 0.874613
+    seen_macro_f1                 : 0.836425
+    -----------                   :
+    unseen_accuracy               : 0.592222
+    unseen_precision              : 0.68057
+    unseen_recall                 : 0.592222
+    unseen_macro_f1               : 0.602224
+    -----------                   :
+    GZSL_seen_recall              : 0.910556
+    GZSL_unseen_recall            : 0.762222
+    GZSL_acc_hm                   : 0.706481
+    GZSL_f1_hm                    : 0.700261
+    -----------                   :
+tau : Parameter containing:
+tensor(13.3911, device='cuda:0', requires_grad=True)
+    epoch                         : 27
+    loss                          : 0.259207
+    seen_accuracy                 : 0.979
+    seen_precision                : 0.958728
+    seen_recall                   : 0.947807
+    seen_macro_f1                 : 0.951472
+    -----------                   :
+    unseen_accuracy               : 0.994
+    unseen_precision              : 0.984015
+    unseen_recall                 : 0.980818
+    unseen_macro_f1               : 0.982002
+    -----------                   :
+    GZSL_seen_recall              : 0.990455
+    GZSL_unseen_recall            : 0.997
+    GZSL_acc_hm                   : 0.986396
+    GZSL_f1_hm                    : 0.967047
+    -----------                   :
+    val_only_seen_accuracy        : 0.942407
+    val_only_seen_precision       : 0.942169
+    val_only_seen_recall          : 0.942102
+    val_only_seen_macro_f1        : 0.941174
+    -----------                   :
+    val_only_unseen_accuracy      : 0.719111
+    val_only_unseen_precision     : 0.732682
+    val_only_unseen_recall        : 0.719111
+    val_only_unseen_macro_f1      : 0.705963
+    -----------                   :
+    val_seen_accuracy             : 0.87537
+    val_seen_precision            : 0.843458
+    val_seen_recall               : 0.874613
+    val_seen_macro_f1             : 0.836425
+    -----------                   :
+    val_unseen_accuracy           : 0.592222
+    val_unseen_precision          : 0.68057
+    val_unseen_recall             : 0.592222
+    val_unseen_macro_f1           : 0.602224
+    -----------                   :
+    val_GZSL_seen_recall          : 0.910556
+    val_GZSL_unseen_recall        : 0.762222
+    val_GZSL_acc_hm               : 0.706481
+    val_GZSL_f1_hm                : 0.700261
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 28 Batch id: 0 Loss: 0.234917
+Train Epoch: 28 Batch id: 4 Loss: 0.224510
+Train Epoch: 28 Batch id: 8 Loss: 0.243498
+Train Epoch: 28 Batch id: 12 Loss: 0.289149
+Train Epoch: 28 Batch id: 16 Loss: 0.238620
+===== valid
+    only_seen_accuracy            : 0.940185
+    only_seen_precision           : 0.94074
+    only_seen_recall              : 0.939704
+    only_seen_macro_f1            : 0.939267
+    -----------                   :
+    only_unseen_accuracy          : 0.719333
+    only_unseen_precision         : 0.730245
+    only_unseen_recall            : 0.719333
+    only_unseen_macro_f1          : 0.705829
+    -----------                   :
+    seen_accuracy                 : 0.883889
+    seen_precision                : 0.822023
+    seen_recall                   : 0.882946
+    seen_macro_f1                 : 0.831293
+    -----------                   :
+    unseen_accuracy               : 0.578222
+    unseen_precision              : 0.697425
+    unseen_recall                 : 0.578222
+    unseen_macro_f1               : 0.601846
+    -----------                   :
+    GZSL_seen_recall              : 0.922222
+    GZSL_unseen_recall            : 0.723111
+    GZSL_acc_hm                   : 0.699104
+    GZSL_f1_hm                    : 0.698202
+    -----------                   :
+tau : Parameter containing:
+tensor(13.4653, device='cuda:0', requires_grad=True)
+    epoch                         : 28
+    loss                          : 0.243932
+    seen_accuracy                 : 0.980364
+    seen_precision                : 0.958974
+    seen_recall                   : 0.948163
+    seen_macro_f1                 : 0.951877
+    -----------                   :
+    unseen_accuracy               : 0.994
+    unseen_precision              : 0.987814
+    unseen_recall                 : 0.985091
+    unseen_macro_f1               : 0.985795
+    -----------                   :
+    GZSL_seen_recall              : 0.990364
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.988347
+    GZSL_f1_hm                    : 0.969164
+    -----------                   :
+    val_only_seen_accuracy        : 0.940185
+    val_only_seen_precision       : 0.94074
+    val_only_seen_recall          : 0.939704
+    val_only_seen_macro_f1        : 0.939267
+    -----------                   :
+    val_only_unseen_accuracy      : 0.719333
+    val_only_unseen_precision     : 0.730245
+    val_only_unseen_recall        : 0.719333
+    val_only_unseen_macro_f1      : 0.705829
+    -----------                   :
+    val_seen_accuracy             : 0.883889
+    val_seen_precision            : 0.822023
+    val_seen_recall               : 0.882946
+    val_seen_macro_f1             : 0.831293
+    -----------                   :
+    val_unseen_accuracy           : 0.578222
+    val_unseen_precision          : 0.697425
+    val_unseen_recall             : 0.578222
+    val_unseen_macro_f1           : 0.601846
+    -----------                   :
+    val_GZSL_seen_recall          : 0.922222
+    val_GZSL_unseen_recall        : 0.723111
+    val_GZSL_acc_hm               : 0.699104
+    val_GZSL_f1_hm                : 0.698202
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 29 Batch id: 0 Loss: 0.260220
+Train Epoch: 29 Batch id: 4 Loss: 0.225341
+Train Epoch: 29 Batch id: 8 Loss: 0.326767
+Train Epoch: 29 Batch id: 12 Loss: 0.214567
+Train Epoch: 29 Batch id: 16 Loss: 0.236790
+===== valid
+    only_seen_accuracy            : 0.941852
+    only_seen_precision           : 0.942094
+    only_seen_recall              : 0.940942
+    only_seen_macro_f1            : 0.940642
+    -----------                   :
+    only_unseen_accuracy          : 0.716
+    only_unseen_precision         : 0.726307
+    only_unseen_recall            : 0.716
+    only_unseen_macro_f1          : 0.701696
+    -----------                   :
+    seen_accuracy                 : 0.881667
+    seen_precision                : 0.822669
+    seen_recall                   : 0.880644
+    seen_macro_f1                 : 0.835127
+    -----------                   :
+    unseen_accuracy               : 0.583333
+    unseen_precision              : 0.685472
+    unseen_recall                 : 0.583333
+    unseen_macro_f1               : 0.600964
+    -----------                   :
+    GZSL_seen_recall              : 0.918333
+    GZSL_unseen_recall            : 0.742444
+    GZSL_acc_hm                   : 0.702123
+    GZSL_f1_hm                    : 0.698954
+    -----------                   :
+tau : Parameter containing:
+tensor(13.5367, device='cuda:0', requires_grad=True)
+    epoch                         : 29
+    loss                          : 0.246853
+    seen_accuracy                 : 0.979364
+    seen_precision                : 0.95949
+    seen_recall                   : 0.949399
+    seen_macro_f1                 : 0.952658
+    -----------                   :
+    unseen_accuracy               : 0.99
+    unseen_precision              : 0.98053
+    unseen_recall                 : 0.976636
+    unseen_macro_f1               : 0.977778
+    -----------                   :
+    GZSL_seen_recall              : 0.991182
+    GZSL_unseen_recall            : 0.997
+    GZSL_acc_hm                   : 0.983774
+    GZSL_f1_hm                    : 0.958535
+    -----------                   :
+    val_only_seen_accuracy        : 0.941852
+    val_only_seen_precision       : 0.942094
+    val_only_seen_recall          : 0.940942
+    val_only_seen_macro_f1        : 0.940642
+    -----------                   :
+    val_only_unseen_accuracy      : 0.716
+    val_only_unseen_precision     : 0.726307
+    val_only_unseen_recall        : 0.716
+    val_only_unseen_macro_f1      : 0.701696
+    -----------                   :
+    val_seen_accuracy             : 0.881667
+    val_seen_precision            : 0.822669
+    val_seen_recall               : 0.880644
+    val_seen_macro_f1             : 0.835127
+    -----------                   :
+    val_unseen_accuracy           : 0.583333
+    val_unseen_precision          : 0.685472
+    val_unseen_recall             : 0.583333
+    val_unseen_macro_f1           : 0.600964
+    -----------                   :
+    val_GZSL_seen_recall          : 0.918333
+    val_GZSL_unseen_recall        : 0.742444
+    val_GZSL_acc_hm               : 0.702123
+    val_GZSL_f1_hm                : 0.698954
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 30 Batch id: 0 Loss: 0.261789
+Train Epoch: 30 Batch id: 4 Loss: 0.193559
+Train Epoch: 30 Batch id: 8 Loss: 0.238679
+Train Epoch: 30 Batch id: 12 Loss: 0.191121
+Train Epoch: 30 Batch id: 16 Loss: 0.211972
+===== valid
+    only_seen_accuracy            : 0.944815
+    only_seen_precision           : 0.944861
+    only_seen_recall              : 0.944386
+    only_seen_macro_f1            : 0.943882
+    -----------                   :
+    only_unseen_accuracy          : 0.707556
+    only_unseen_precision         : 0.720129
+    only_unseen_recall            : 0.707556
+    only_unseen_macro_f1          : 0.692779
+    -----------                   :
+    seen_accuracy                 : 0.885741
+    seen_precision                : 0.831496
+    seen_recall                   : 0.884649
+    seen_macro_f1                 : 0.83916
+    -----------                   :
+    unseen_accuracy               : 0.580667
+    unseen_precision              : 0.689443
+    unseen_recall                 : 0.580667
+    unseen_macro_f1               : 0.599888
+    -----------                   :
+    GZSL_seen_recall              : 0.918704
+    GZSL_unseen_recall            : 0.735111
+    GZSL_acc_hm                   : 0.701469
+    GZSL_f1_hm                    : 0.699632
+    -----------                   :
+tau : Parameter containing:
+tensor(13.6046, device='cuda:0', requires_grad=True)
+    epoch                         : 30
+    loss                          : 0.238775
+    seen_accuracy                 : 0.983818
+    seen_precision                : 0.965223
+    seen_recall                   : 0.956635
+    seen_macro_f1                 : 0.959562
+    -----------                   :
+    unseen_accuracy               : 0.991
+    unseen_precision              : 0.97789
+    unseen_recall                 : 0.973182
+    unseen_macro_f1               : 0.974823
+    -----------                   :
+    GZSL_seen_recall              : 0.992545
+    GZSL_unseen_recall            : 0.996
+    GZSL_acc_hm                   : 0.986137
+    GZSL_f1_hm                    : 0.959052
+    -----------                   :
+    val_only_seen_accuracy        : 0.944815
+    val_only_seen_precision       : 0.944861
+    val_only_seen_recall          : 0.944386
+    val_only_seen_macro_f1        : 0.943882
+    -----------                   :
+    val_only_unseen_accuracy      : 0.707556
+    val_only_unseen_precision     : 0.720129
+    val_only_unseen_recall        : 0.707556
+    val_only_unseen_macro_f1      : 0.692779
+    -----------                   :
+    val_seen_accuracy             : 0.885741
+    val_seen_precision            : 0.831496
+    val_seen_recall               : 0.884649
+    val_seen_macro_f1             : 0.83916
+    -----------                   :
+    val_unseen_accuracy           : 0.580667
+    val_unseen_precision          : 0.689443
+    val_unseen_recall             : 0.580667
+    val_unseen_macro_f1           : 0.599888
+    -----------                   :
+    val_GZSL_seen_recall          : 0.918704
+    val_GZSL_unseen_recall        : 0.735111
+    val_GZSL_acc_hm               : 0.701469
+    val_GZSL_f1_hm                : 0.699632
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 31 Batch id: 0 Loss: 0.188212
+Train Epoch: 31 Batch id: 4 Loss: 0.180782
+Train Epoch: 31 Batch id: 8 Loss: 0.255081
+Train Epoch: 31 Batch id: 12 Loss: 0.199807
+Train Epoch: 31 Batch id: 16 Loss: 0.155582
+===== valid
+    only_seen_accuracy            : 0.942407
+    only_seen_precision           : 0.942972
+    only_seen_recall              : 0.941812
+    only_seen_macro_f1            : 0.941417
+    -----------                   :
+    only_unseen_accuracy          : 0.708889
+    only_unseen_precision         : 0.716883
+    only_unseen_recall            : 0.708889
+    only_unseen_macro_f1          : 0.695115
+    -----------                   :
+    seen_accuracy                 : 0.89
+    seen_precision                : 0.817841
+    seen_recall                   : 0.889056
+    seen_macro_f1                 : 0.837152
+    -----------                   :
+    unseen_accuracy               : 0.576
+    unseen_precision              : 0.692555
+    unseen_recall                 : 0.576
+    unseen_macro_f1               : 0.602128
+    -----------                   :
+    GZSL_seen_recall              : 0.925741
+    GZSL_unseen_recall            : 0.728222
+    GZSL_acc_hm                   : 0.699372
+    GZSL_f1_hm                    : 0.700451
+    -----------                   :
+tau : Parameter containing:
+tensor(13.6705, device='cuda:0', requires_grad=True)
+    epoch                         : 31
+    loss                          : 0.193666
+    seen_accuracy                 : 0.984727
+    seen_precision                : 0.969273
+    seen_recall                   : 0.960954
+    seen_macro_f1                 : 0.963709
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.998333
+    unseen_recall                 : 0.998
+    unseen_macro_f1               : 0.99798
+    -----------                   :
+    GZSL_seen_recall              : 0.992727
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.990447
+    GZSL_f1_hm                    : 0.978624
+    -----------                   :
+    val_only_seen_accuracy        : 0.942407
+    val_only_seen_precision       : 0.942972
+    val_only_seen_recall          : 0.941812
+    val_only_seen_macro_f1        : 0.941417
+    -----------                   :
+    val_only_unseen_accuracy      : 0.708889
+    val_only_unseen_precision     : 0.716883
+    val_only_unseen_recall        : 0.708889
+    val_only_unseen_macro_f1      : 0.695115
+    -----------                   :
+    val_seen_accuracy             : 0.89
+    val_seen_precision            : 0.817841
+    val_seen_recall               : 0.889056
+    val_seen_macro_f1             : 0.837152
+    -----------                   :
+    val_unseen_accuracy           : 0.576
+    val_unseen_precision          : 0.692555
+    val_unseen_recall             : 0.576
+    val_unseen_macro_f1           : 0.602128
+    -----------                   :
+    val_GZSL_seen_recall          : 0.925741
+    val_GZSL_unseen_recall        : 0.728222
+    val_GZSL_acc_hm               : 0.699372
+    val_GZSL_f1_hm                : 0.700451
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 32 Batch id: 0 Loss: 0.271740
+Train Epoch: 32 Batch id: 4 Loss: 0.270101
+Train Epoch: 32 Batch id: 8 Loss: 0.179321
+Train Epoch: 32 Batch id: 12 Loss: 0.195266
+Train Epoch: 32 Batch id: 16 Loss: 0.190020
+===== valid
+    only_seen_accuracy            : 0.941296
+    only_seen_precision           : 0.941635
+    only_seen_recall              : 0.940833
+    only_seen_macro_f1            : 0.940451
+    -----------                   :
+    only_unseen_accuracy          : 0.713333
+    only_unseen_precision         : 0.723619
+    only_unseen_recall            : 0.713333
+    only_unseen_macro_f1          : 0.698866
+    -----------                   :
+    seen_accuracy                 : 0.881667
+    seen_precision                : 0.826054
+    seen_recall                   : 0.880297
+    seen_macro_f1                 : 0.837066
+    -----------                   :
+    unseen_accuracy               : 0.591111
+    unseen_precision              : 0.690211
+    unseen_recall                 : 0.591111
+    unseen_macro_f1               : 0.60783
+    -----------                   :
+    GZSL_seen_recall              : 0.916111
+    GZSL_unseen_recall            : 0.743111
+    GZSL_acc_hm                   : 0.707727
+    GZSL_f1_hm                    : 0.704263
+    -----------                   :
+tau : Parameter containing:
+tensor(13.7345, device='cuda:0', requires_grad=True)
+    epoch                         : 32
+    loss                          : 0.196355
+    seen_accuracy                 : 0.985545
+    seen_precision                : 0.966596
+    seen_recall                   : 0.957954
+    seen_macro_f1                 : 0.96097
+    -----------                   :
+    unseen_accuracy               : 0.995
+    unseen_precision              : 0.989306
+    unseen_recall                 : 0.987167
+    unseen_macro_f1               : 0.987879
+    -----------                   :
+    GZSL_seen_recall              : 0.992091
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.988412
+    GZSL_f1_hm                    : 0.971385
+    -----------                   :
+    val_only_seen_accuracy        : 0.941296
+    val_only_seen_precision       : 0.941635
+    val_only_seen_recall          : 0.940833
+    val_only_seen_macro_f1        : 0.940451
+    -----------                   :
+    val_only_unseen_accuracy      : 0.713333
+    val_only_unseen_precision     : 0.723619
+    val_only_unseen_recall        : 0.713333
+    val_only_unseen_macro_f1      : 0.698866
+    -----------                   :
+    val_seen_accuracy             : 0.881667
+    val_seen_precision            : 0.826054
+    val_seen_recall               : 0.880297
+    val_seen_macro_f1             : 0.837066
+    -----------                   :
+    val_unseen_accuracy           : 0.591111
+    val_unseen_precision          : 0.690211
+    val_unseen_recall             : 0.591111
+    val_unseen_macro_f1           : 0.60783
+    -----------                   :
+    val_GZSL_seen_recall          : 0.916111
+    val_GZSL_unseen_recall        : 0.743111
+    val_GZSL_acc_hm               : 0.707727
+    val_GZSL_f1_hm                : 0.704263
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 33 Batch id: 0 Loss: 0.177418
+Train Epoch: 33 Batch id: 4 Loss: 0.238066
+Train Epoch: 33 Batch id: 8 Loss: 0.178261
+Train Epoch: 33 Batch id: 12 Loss: 0.160730
+Train Epoch: 33 Batch id: 16 Loss: 0.174160
+===== valid
+    only_seen_accuracy            : 0.941667
+    only_seen_precision           : 0.942297
+    only_seen_recall              : 0.941292
+    only_seen_macro_f1            : 0.940873
+    -----------                   :
+    only_unseen_accuracy          : 0.709111
+    only_unseen_precision         : 0.721033
+    only_unseen_recall            : 0.709111
+    only_unseen_macro_f1          : 0.693639
+    -----------                   :
+    seen_accuracy                 : 0.886296
+    seen_precision                : 0.828136
+    seen_recall                   : 0.885055
+    seen_macro_f1                 : 0.837456
+    -----------                   :
+    unseen_accuracy               : 0.582222
+    unseen_precision              : 0.694859
+    unseen_recall                 : 0.582222
+    unseen_macro_f1               : 0.601597
+    -----------                   :
+    GZSL_seen_recall              : 0.924444
+    GZSL_unseen_recall            : 0.738444
+    GZSL_acc_hm                   : 0.702778
+    GZSL_f1_hm                    : 0.700197
+    -----------                   :
+tau : Parameter containing:
+tensor(13.7977, device='cuda:0', requires_grad=True)
+    epoch                         : 33
+    loss                          : 0.188703
+    seen_accuracy                 : 0.986182
+    seen_precision                : 0.970165
+    seen_recall                   : 0.962759
+    seen_macro_f1                 : 0.965306
+    -----------                   :
+    unseen_accuracy               : 0.996
+    unseen_precision              : 0.98553
+    unseen_recall                 : 0.982636
+    unseen_macro_f1               : 0.983838
+    -----------                   :
+    GZSL_seen_recall              : 0.993545
+    GZSL_unseen_recall            : 0.997
+    GZSL_acc_hm                   : 0.99057
+    GZSL_f1_hm                    : 0.97108
+    -----------                   :
+    val_only_seen_accuracy        : 0.941667
+    val_only_seen_precision       : 0.942297
+    val_only_seen_recall          : 0.941292
+    val_only_seen_macro_f1        : 0.940873
+    -----------                   :
+    val_only_unseen_accuracy      : 0.709111
+    val_only_unseen_precision     : 0.721033
+    val_only_unseen_recall        : 0.709111
+    val_only_unseen_macro_f1      : 0.693639
+    -----------                   :
+    val_seen_accuracy             : 0.886296
+    val_seen_precision            : 0.828136
+    val_seen_recall               : 0.885055
+    val_seen_macro_f1             : 0.837456
+    -----------                   :
+    val_unseen_accuracy           : 0.582222
+    val_unseen_precision          : 0.694859
+    val_unseen_recall             : 0.582222
+    val_unseen_macro_f1           : 0.601597
+    -----------                   :
+    val_GZSL_seen_recall          : 0.924444
+    val_GZSL_unseen_recall        : 0.738444
+    val_GZSL_acc_hm               : 0.702778
+    val_GZSL_f1_hm                : 0.700197
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 34 Batch id: 0 Loss: 0.162402
+Train Epoch: 34 Batch id: 4 Loss: 0.187034
+Train Epoch: 34 Batch id: 8 Loss: 0.170067
+Train Epoch: 34 Batch id: 12 Loss: 0.226715
+Train Epoch: 34 Batch id: 16 Loss: 0.181368
+===== valid
+    only_seen_accuracy            : 0.943519
+    only_seen_precision           : 0.944093
+    only_seen_recall              : 0.942867
+    only_seen_macro_f1            : 0.942623
+    -----------                   :
+    only_unseen_accuracy          : 0.712889
+    only_unseen_precision         : 0.722685
+    only_unseen_recall            : 0.712889
+    only_unseen_macro_f1          : 0.698318
+    -----------                   :
+    seen_accuracy                 : 0.887778
+    seen_precision                : 0.837578
+    seen_recall                   : 0.886598
+    seen_macro_f1                 : 0.838469
+    -----------                   :
+    unseen_accuracy               : 0.584889
+    unseen_precision              : 0.697685
+    unseen_recall                 : 0.584889
+    unseen_macro_f1               : 0.607487
+    -----------                   :
+    GZSL_seen_recall              : 0.922963
+    GZSL_unseen_recall            : 0.729778
+    GZSL_acc_hm                   : 0.705185
+    GZSL_f1_hm                    : 0.704528
+    -----------                   :
+tau : Parameter containing:
+tensor(13.8588, device='cuda:0', requires_grad=True)
+    epoch                         : 34
+    loss                          : 0.173225
+    seen_accuracy                 : 0.986636
+    seen_precision                : 0.968425
+    seen_recall                   : 0.96061
+    seen_macro_f1                 : 0.963315
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.990909
+    unseen_recall                 : 0.989091
+    unseen_macro_f1               : 0.989899
+    -----------                   :
+    GZSL_seen_recall              : 0.993
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.992755
+    GZSL_f1_hm                    : 0.979862
+    -----------                   :
+    val_only_seen_accuracy        : 0.943519
+    val_only_seen_precision       : 0.944093
+    val_only_seen_recall          : 0.942867
+    val_only_seen_macro_f1        : 0.942623
+    -----------                   :
+    val_only_unseen_accuracy      : 0.712889
+    val_only_unseen_precision     : 0.722685
+    val_only_unseen_recall        : 0.712889
+    val_only_unseen_macro_f1      : 0.698318
+    -----------                   :
+    val_seen_accuracy             : 0.887778
+    val_seen_precision            : 0.837578
+    val_seen_recall               : 0.886598
+    val_seen_macro_f1             : 0.838469
+    -----------                   :
+    val_unseen_accuracy           : 0.584889
+    val_unseen_precision          : 0.697685
+    val_unseen_recall             : 0.584889
+    val_unseen_macro_f1           : 0.607487
+    -----------                   :
+    val_GZSL_seen_recall          : 0.922963
+    val_GZSL_unseen_recall        : 0.729778
+    val_GZSL_acc_hm               : 0.705185
+    val_GZSL_f1_hm                : 0.704528
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 35 Batch id: 0 Loss: 0.170181
+Train Epoch: 35 Batch id: 4 Loss: 0.177033
+Train Epoch: 35 Batch id: 8 Loss: 0.177339
+Train Epoch: 35 Batch id: 12 Loss: 0.137707
+Train Epoch: 35 Batch id: 16 Loss: 0.158294
+===== valid
+    only_seen_accuracy            : 0.941111
+    only_seen_precision           : 0.941597
+    only_seen_recall              : 0.940842
+    only_seen_macro_f1            : 0.9403
+    -----------                   :
+    only_unseen_accuracy          : 0.713778
+    only_unseen_precision         : 0.725335
+    only_unseen_recall            : 0.713778
+    only_unseen_macro_f1          : 0.700053
+    -----------                   :
+    seen_accuracy                 : 0.888704
+    seen_precision                : 0.832247
+    seen_recall                   : 0.888481
+    seen_macro_f1                 : 0.838731
+    -----------                   :
+    unseen_accuracy               : 0.579778
+    unseen_precision              : 0.696164
+    unseen_recall                 : 0.579778
+    unseen_macro_f1               : 0.603836
+    -----------                   :
+    GZSL_seen_recall              : 0.925556
+    GZSL_unseen_recall            : 0.727333
+    GZSL_acc_hm                   : 0.701746
+    GZSL_f1_hm                    : 0.702159
+    -----------                   :
+tau : Parameter containing:
+tensor(13.9185, device='cuda:0', requires_grad=True)
+    epoch                         : 35
+    loss                          : 0.169189
+    seen_accuracy                 : 0.987364
+    seen_precision                : 0.97298
+    seen_recall                   : 0.966497
+    seen_macro_f1                 : 0.968664
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.990909
+    unseen_recall                 : 0.989091
+    unseen_macro_f1               : 0.989899
+    -----------                   :
+    GZSL_seen_recall              : 0.994455
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.992243
+    GZSL_f1_hm                    : 0.980631
+    -----------                   :
+    val_only_seen_accuracy        : 0.941111
+    val_only_seen_precision       : 0.941597
+    val_only_seen_recall          : 0.940842
+    val_only_seen_macro_f1        : 0.9403
+    -----------                   :
+    val_only_unseen_accuracy      : 0.713778
+    val_only_unseen_precision     : 0.725335
+    val_only_unseen_recall        : 0.713778
+    val_only_unseen_macro_f1      : 0.700053
+    -----------                   :
+    val_seen_accuracy             : 0.888704
+    val_seen_precision            : 0.832247
+    val_seen_recall               : 0.888481
+    val_seen_macro_f1             : 0.838731
+    -----------                   :
+    val_unseen_accuracy           : 0.579778
+    val_unseen_precision          : 0.696164
+    val_unseen_recall             : 0.579778
+    val_unseen_macro_f1           : 0.603836
+    -----------                   :
+    val_GZSL_seen_recall          : 0.925556
+    val_GZSL_unseen_recall        : 0.727333
+    val_GZSL_acc_hm               : 0.701746
+    val_GZSL_f1_hm                : 0.702159
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 36 Batch id: 0 Loss: 0.229334
+Train Epoch: 36 Batch id: 4 Loss: 0.162367
+Train Epoch: 36 Batch id: 8 Loss: 0.207465
+Train Epoch: 36 Batch id: 12 Loss: 0.282347
+Train Epoch: 36 Batch id: 16 Loss: 0.184644
+===== valid
+    only_seen_accuracy            : 0.943333
+    only_seen_precision           : 0.943802
+    only_seen_recall              : 0.942517
+    only_seen_macro_f1            : 0.942357
+    -----------                   :
+    only_unseen_accuracy          : 0.705111
+    only_unseen_precision         : 0.716577
+    only_unseen_recall            : 0.705111
+    only_unseen_macro_f1          : 0.690098
+    -----------                   :
+    seen_accuracy                 : 0.886481
+    seen_precision                : 0.836362
+    seen_recall                   : 0.885422
+    seen_macro_f1                 : 0.838229
+    -----------                   :
+    unseen_accuracy               : 0.579111
+    unseen_precision              : 0.684081
+    unseen_recall                 : 0.579111
+    unseen_macro_f1               : 0.598422
+    -----------                   :
+    GZSL_seen_recall              : 0.920741
+    GZSL_unseen_recall            : 0.731778
+    GZSL_acc_hm                   : 0.700564
+    GZSL_f1_hm                    : 0.69831
+    -----------                   :
+tau : Parameter containing:
+tensor(13.9772, device='cuda:0', requires_grad=True)
+    epoch                         : 36
+    loss                          : 0.175621
+    seen_accuracy                 : 0.988364
+    seen_precision                : 0.975723
+    seen_recall                   : 0.970001
+    seen_macro_f1                 : 0.971797
+    -----------                   :
+    unseen_accuracy               : 0.995
+    unseen_precision              : 0.980985
+    unseen_recall                 : 0.977182
+    unseen_macro_f1               : 0.978788
+    -----------                   :
+    GZSL_seen_recall              : 0.995273
+    GZSL_unseen_recall            : 0.996
+    GZSL_acc_hm                   : 0.990181
+    GZSL_f1_hm                    : 0.969667
+    -----------                   :
+    val_only_seen_accuracy        : 0.943333
+    val_only_seen_precision       : 0.943802
+    val_only_seen_recall          : 0.942517
+    val_only_seen_macro_f1        : 0.942357
+    -----------                   :
+    val_only_unseen_accuracy      : 0.705111
+    val_only_unseen_precision     : 0.716577
+    val_only_unseen_recall        : 0.705111
+    val_only_unseen_macro_f1      : 0.690098
+    -----------                   :
+    val_seen_accuracy             : 0.886481
+    val_seen_precision            : 0.836362
+    val_seen_recall               : 0.885422
+    val_seen_macro_f1             : 0.838229
+    -----------                   :
+    val_unseen_accuracy           : 0.579111
+    val_unseen_precision          : 0.684081
+    val_unseen_recall             : 0.579111
+    val_unseen_macro_f1           : 0.598422
+    -----------                   :
+    val_GZSL_seen_recall          : 0.920741
+    val_GZSL_unseen_recall        : 0.731778
+    val_GZSL_acc_hm               : 0.700564
+    val_GZSL_f1_hm                : 0.69831
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 37 Batch id: 0 Loss: 0.170478
+Train Epoch: 37 Batch id: 4 Loss: 0.132552
+Train Epoch: 37 Batch id: 8 Loss: 0.148695
+Train Epoch: 37 Batch id: 12 Loss: 0.150561
+Train Epoch: 37 Batch id: 16 Loss: 0.164970
+===== valid
+    only_seen_accuracy            : 0.944444
+    only_seen_precision           : 0.944688
+    only_seen_recall              : 0.944173
+    only_seen_macro_f1            : 0.943584
+    -----------                   :
+    only_unseen_accuracy          : 0.705111
+    only_unseen_precision         : 0.716124
+    only_unseen_recall            : 0.705111
+    only_unseen_macro_f1          : 0.689007
+    -----------                   :
+    seen_accuracy                 : 0.893148
+    seen_precision                : 0.835723
+    seen_recall                   : 0.89238
+    seen_macro_f1                 : 0.84216
+    -----------                   :
+    unseen_accuracy               : 0.581111
+    unseen_precision              : 0.695227
+    unseen_recall                 : 0.581111
+    unseen_macro_f1               : 0.603473
+    -----------                   :
+    GZSL_seen_recall              : 0.928519
+    GZSL_unseen_recall            : 0.733556
+    GZSL_acc_hm                   : 0.704107
+    GZSL_f1_hm                    : 0.703111
+    -----------                   :
+tau : Parameter containing:
+tensor(14.0350, device='cuda:0', requires_grad=True)
+    epoch                         : 37
+    loss                          : 0.157347
+    seen_accuracy                 : 0.988909
+    seen_precision                : 0.975083
+    seen_recall                   : 0.968886
+    seen_macro_f1                 : 0.971048
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.998333
+    unseen_recall                 : 0.998
+    unseen_macro_f1               : 0.99798
+    -----------                   :
+    GZSL_seen_recall              : 0.994545
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.993798
+    GZSL_f1_hm                    : 0.985158
+    -----------                   :
+    val_only_seen_accuracy        : 0.944444
+    val_only_seen_precision       : 0.944688
+    val_only_seen_recall          : 0.944173
+    val_only_seen_macro_f1        : 0.943584
+    -----------                   :
+    val_only_unseen_accuracy      : 0.705111
+    val_only_unseen_precision     : 0.716124
+    val_only_unseen_recall        : 0.705111
+    val_only_unseen_macro_f1      : 0.689007
+    -----------                   :
+    val_seen_accuracy             : 0.893148
+    val_seen_precision            : 0.835723
+    val_seen_recall               : 0.89238
+    val_seen_macro_f1             : 0.84216
+    -----------                   :
+    val_unseen_accuracy           : 0.581111
+    val_unseen_precision          : 0.695227
+    val_unseen_recall             : 0.581111
+    val_unseen_macro_f1           : 0.603473
+    -----------                   :
+    val_GZSL_seen_recall          : 0.928519
+    val_GZSL_unseen_recall        : 0.733556
+    val_GZSL_acc_hm               : 0.704107
+    val_GZSL_f1_hm                : 0.703111
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 38 Batch id: 0 Loss: 0.125807
+Train Epoch: 38 Batch id: 4 Loss: 0.118910
+Train Epoch: 38 Batch id: 8 Loss: 0.203948
+Train Epoch: 38 Batch id: 12 Loss: 0.144130
+Train Epoch: 38 Batch id: 16 Loss: 0.136277
+===== valid
+    only_seen_accuracy            : 0.942778
+    only_seen_precision           : 0.943155
+    only_seen_recall              : 0.942576
+    only_seen_macro_f1            : 0.942075
+    -----------                   :
+    only_unseen_accuracy          : 0.706
+    only_unseen_precision         : 0.718548
+    only_unseen_recall            : 0.706
+    only_unseen_macro_f1          : 0.691173
+    -----------                   :
+    seen_accuracy                 : 0.886481
+    seen_precision                : 0.827512
+    seen_recall                   : 0.884981
+    seen_macro_f1                 : 0.838072
+    -----------                   :
+    unseen_accuracy               : 0.581778
+    unseen_precision              : 0.6966
+    unseen_recall                 : 0.581778
+    unseen_macro_f1               : 0.603353
+    -----------                   :
+    GZSL_seen_recall              : 0.921296
+    GZSL_unseen_recall            : 0.728444
+    GZSL_acc_hm                   : 0.702512
+    GZSL_f1_hm                    : 0.701601
+    -----------                   :
+tau : Parameter containing:
+tensor(14.0911, device='cuda:0', requires_grad=True)
+    epoch                         : 38
+    loss                          : 0.146437
+    seen_accuracy                 : 0.991818
+    seen_precision                : 0.982222
+    seen_recall                   : 0.978166
+    seen_macro_f1                 : 0.979495
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.990909
+    unseen_recall                 : 0.989091
+    unseen_macro_f1               : 0.989899
+    -----------                   :
+    GZSL_seen_recall              : 0.996636
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.996089
+    GZSL_f1_hm                    : 0.989546
+    -----------                   :
+    val_only_seen_accuracy        : 0.942778
+    val_only_seen_precision       : 0.943155
+    val_only_seen_recall          : 0.942576
+    val_only_seen_macro_f1        : 0.942075
+    -----------                   :
+    val_only_unseen_accuracy      : 0.706
+    val_only_unseen_precision     : 0.718548
+    val_only_unseen_recall        : 0.706
+    val_only_unseen_macro_f1      : 0.691173
+    -----------                   :
+    val_seen_accuracy             : 0.886481
+    val_seen_precision            : 0.827512
+    val_seen_recall               : 0.884981
+    val_seen_macro_f1             : 0.838072
+    -----------                   :
+    val_unseen_accuracy           : 0.581778
+    val_unseen_precision          : 0.6966
+    val_unseen_recall             : 0.581778
+    val_unseen_macro_f1           : 0.603353
+    -----------                   :
+    val_GZSL_seen_recall          : 0.921296
+    val_GZSL_unseen_recall        : 0.728444
+    val_GZSL_acc_hm               : 0.702512
+    val_GZSL_f1_hm                : 0.701601
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 39 Batch id: 0 Loss: 0.141780
+Train Epoch: 39 Batch id: 4 Loss: 0.117095
+Train Epoch: 39 Batch id: 8 Loss: 0.140640
+Train Epoch: 39 Batch id: 12 Loss: 0.153507
+Train Epoch: 39 Batch id: 16 Loss: 0.139174
+===== valid
+    only_seen_accuracy            : 0.944074
+    only_seen_precision           : 0.944384
+    only_seen_recall              : 0.943561
+    only_seen_macro_f1            : 0.943248
+    -----------                   :
+    only_unseen_accuracy          : 0.708222
+    only_unseen_precision         : 0.720803
+    only_unseen_recall            : 0.708222
+    only_unseen_macro_f1          : 0.693685
+    -----------                   :
+    seen_accuracy                 : 0.887778
+    seen_precision                : 0.828666
+    seen_recall                   : 0.886036
+    seen_macro_f1                 : 0.838991
+    -----------                   :
+    unseen_accuracy               : 0.585333
+    unseen_precision              : 0.692765
+    unseen_recall                 : 0.585333
+    unseen_macro_f1               : 0.6067
+    -----------                   :
+    GZSL_seen_recall              : 0.922778
+    GZSL_unseen_recall            : 0.740222
+    GZSL_acc_hm                   : 0.705508
+    GZSL_f1_hm                    : 0.704183
+    -----------                   :
+tau : Parameter containing:
+tensor(14.1457, device='cuda:0', requires_grad=True)
+    epoch                         : 39
+    loss                          : 0.146663
+    seen_accuracy                 : 0.990818
+    seen_precision                : 0.979465
+    seen_recall                   : 0.974165
+    seen_macro_f1                 : 0.976035
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.995455
+    unseen_recall                 : 0.994545
+    unseen_macro_f1               : 0.994949
+    -----------                   :
+    GZSL_seen_recall              : 0.995364
+    GZSL_unseen_recall            : 0.999
+    GZSL_acc_hm                   : 0.995863
+    GZSL_f1_hm                    : 0.9894
+    -----------                   :
+    val_only_seen_accuracy        : 0.944074
+    val_only_seen_precision       : 0.944384
+    val_only_seen_recall          : 0.943561
+    val_only_seen_macro_f1        : 0.943248
+    -----------                   :
+    val_only_unseen_accuracy      : 0.708222
+    val_only_unseen_precision     : 0.720803
+    val_only_unseen_recall        : 0.708222
+    val_only_unseen_macro_f1      : 0.693685
+    -----------                   :
+    val_seen_accuracy             : 0.887778
+    val_seen_precision            : 0.828666
+    val_seen_recall               : 0.886036
+    val_seen_macro_f1             : 0.838991
+    -----------                   :
+    val_unseen_accuracy           : 0.585333
+    val_unseen_precision          : 0.692765
+    val_unseen_recall             : 0.585333
+    val_unseen_macro_f1           : 0.6067
+    -----------                   :
+    val_GZSL_seen_recall          : 0.922778
+    val_GZSL_unseen_recall        : 0.740222
+    val_GZSL_acc_hm               : 0.705508
+    val_GZSL_f1_hm                : 0.704183
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 40 Batch id: 0 Loss: 0.119004
+Train Epoch: 40 Batch id: 4 Loss: 0.130026
+Train Epoch: 40 Batch id: 8 Loss: 0.167847
+Train Epoch: 40 Batch id: 12 Loss: 0.117200
+Train Epoch: 40 Batch id: 16 Loss: 0.126354
+===== valid
+    only_seen_accuracy            : 0.944074
+    only_seen_precision           : 0.944167
+    only_seen_recall              : 0.943502
+    only_seen_macro_f1            : 0.943198
+    -----------                   :
+    only_unseen_accuracy          : 0.703333
+    only_unseen_precision         : 0.715936
+    only_unseen_recall            : 0.703333
+    only_unseen_macro_f1          : 0.687705
+    -----------                   :
+    seen_accuracy                 : 0.891852
+    seen_precision                : 0.837833
+    seen_recall                   : 0.890826
+    seen_macro_f1                 : 0.842192
+    -----------                   :
+    unseen_accuracy               : 0.577556
+    unseen_precision              : 0.688698
+    unseen_recall                 : 0.577556
+    unseen_macro_f1               : 0.598201
+    -----------                   :
+    GZSL_seen_recall              : 0.927037
+    GZSL_unseen_recall            : 0.739778
+    GZSL_acc_hm                   : 0.70109
+    GZSL_f1_hm                    : 0.699531
+    -----------                   :
+tau : Parameter containing:
+tensor(14.1987, device='cuda:0', requires_grad=True)
+    epoch                         : 40
+    loss                          : 0.133267
+    seen_accuracy                 : 0.991909
+    seen_precision                : 0.980308
+    seen_recall                   : 0.975578
+    seen_macro_f1                 : 0.977269
+    -----------                   :
+    unseen_accuracy               : 0.996
+    unseen_precision              : 0.989242
+    unseen_recall                 : 0.987091
+    unseen_macro_f1               : 0.987879
+    -----------                   :
+    GZSL_seen_recall              : 0.995818
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.993938
+    GZSL_f1_hm                    : 0.982134
+    -----------                   :
+    val_only_seen_accuracy        : 0.944074
+    val_only_seen_precision       : 0.944167
+    val_only_seen_recall          : 0.943502
+    val_only_seen_macro_f1        : 0.943198
+    -----------                   :
+    val_only_unseen_accuracy      : 0.703333
+    val_only_unseen_precision     : 0.715936
+    val_only_unseen_recall        : 0.703333
+    val_only_unseen_macro_f1      : 0.687705
+    -----------                   :
+    val_seen_accuracy             : 0.891852
+    val_seen_precision            : 0.837833
+    val_seen_recall               : 0.890826
+    val_seen_macro_f1             : 0.842192
+    -----------                   :
+    val_unseen_accuracy           : 0.577556
+    val_unseen_precision          : 0.688698
+    val_unseen_recall             : 0.577556
+    val_unseen_macro_f1           : 0.598201
+    -----------                   :
+    val_GZSL_seen_recall          : 0.927037
+    val_GZSL_unseen_recall        : 0.739778
+    val_GZSL_acc_hm               : 0.70109
+    val_GZSL_f1_hm                : 0.699531
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 41 Batch id: 0 Loss: 0.121155
+Train Epoch: 41 Batch id: 4 Loss: 0.100443
+Train Epoch: 41 Batch id: 8 Loss: 0.137131
+Train Epoch: 41 Batch id: 12 Loss: 0.173395
+Train Epoch: 41 Batch id: 16 Loss: 0.202326
+===== valid
+    only_seen_accuracy            : 0.944259
+    only_seen_precision           : 0.945002
+    only_seen_recall              : 0.943699
+    only_seen_macro_f1            : 0.943634
+    -----------                   :
+    only_unseen_accuracy          : 0.705556
+    only_unseen_precision         : 0.716877
+    only_unseen_recall            : 0.705556
+    only_unseen_macro_f1          : 0.689883
+    -----------                   :
+    seen_accuracy                 : 0.893519
+    seen_precision                : 0.829811
+    seen_recall                   : 0.892398
+    seen_macro_f1                 : 0.839758
+    -----------                   :
+    unseen_accuracy               : 0.577556
+    unseen_precision              : 0.70652
+    unseen_recall                 : 0.577556
+    unseen_macro_f1               : 0.606121
+    -----------                   :
+    GZSL_seen_recall              : 0.928519
+    GZSL_unseen_recall            : 0.717111
+    GZSL_acc_hm                   : 0.701605
+    GZSL_f1_hm                    : 0.704063
+    -----------                   :
+tau : Parameter containing:
+tensor(14.2494, device='cuda:0', requires_grad=True)
+    epoch                         : 41
+    loss                          : 0.137273
+    seen_accuracy                 : 0.991909
+    seen_precision                : 0.979642
+    seen_recall                   : 0.974787
+    seen_macro_f1                 : 0.976576
+    -----------                   :
+    unseen_accuracy               : 0.996
+    unseen_precision              : 0.98553
+    unseen_recall                 : 0.982636
+    unseen_macro_f1               : 0.983838
+    -----------                   :
+    GZSL_seen_recall              : 0.995636
+    GZSL_unseen_recall            : 0.997
+    GZSL_acc_hm                   : 0.994232
+    GZSL_f1_hm                    : 0.979253
+    -----------                   :
+    val_only_seen_accuracy        : 0.944259
+    val_only_seen_precision       : 0.945002
+    val_only_seen_recall          : 0.943699
+    val_only_seen_macro_f1        : 0.943634
+    -----------                   :
+    val_only_unseen_accuracy      : 0.705556
+    val_only_unseen_precision     : 0.716877
+    val_only_unseen_recall        : 0.705556
+    val_only_unseen_macro_f1      : 0.689883
+    -----------                   :
+    val_seen_accuracy             : 0.893519
+    val_seen_precision            : 0.829811
+    val_seen_recall               : 0.892398
+    val_seen_macro_f1             : 0.839758
+    -----------                   :
+    val_unseen_accuracy           : 0.577556
+    val_unseen_precision          : 0.70652
+    val_unseen_recall             : 0.577556
+    val_unseen_macro_f1           : 0.606121
+    -----------                   :
+    val_GZSL_seen_recall          : 0.928519
+    val_GZSL_unseen_recall        : 0.717111
+    val_GZSL_acc_hm               : 0.701605
+    val_GZSL_f1_hm                : 0.704063
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 42 Batch id: 0 Loss: 0.135130
+Train Epoch: 42 Batch id: 4 Loss: 0.125724
+Train Epoch: 42 Batch id: 8 Loss: 0.109360
+Train Epoch: 42 Batch id: 12 Loss: 0.127223
+Train Epoch: 42 Batch id: 16 Loss: 0.112976
+===== valid
+    only_seen_accuracy            : 0.941852
+    only_seen_precision           : 0.942471
+    only_seen_recall              : 0.941362
+    only_seen_macro_f1            : 0.941139
+    -----------                   :
+    only_unseen_accuracy          : 0.700889
+    only_unseen_precision         : 0.711621
+    only_unseen_recall            : 0.700889
+    only_unseen_macro_f1          : 0.684632
+    -----------                   :
+    seen_accuracy                 : 0.890185
+    seen_precision                : 0.829093
+    seen_recall                   : 0.889378
+    seen_macro_f1                 : 0.840242
+    -----------                   :
+    unseen_accuracy               : 0.578667
+    unseen_precision              : 0.686929
+    unseen_recall                 : 0.578667
+    unseen_macro_f1               : 0.599612
+    -----------                   :
+    GZSL_seen_recall              : 0.925926
+    GZSL_unseen_recall            : 0.738
+    GZSL_acc_hm                   : 0.701392
+    GZSL_f1_hm                    : 0.699819
+    -----------                   :
+tau : Parameter containing:
+tensor(14.2995, device='cuda:0', requires_grad=True)
+    epoch                         : 42
+    loss                          : 0.129233
+    seen_accuracy                 : 0.991909
+    seen_precision                : 0.98134
+    seen_recall                   : 0.977026
+    seen_macro_f1                 : 0.97851
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.990909
+    unseen_recall                 : 0.989091
+    unseen_macro_f1               : 0.989899
+    -----------                   :
+    GZSL_seen_recall              : 0.996273
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.99481
+    GZSL_f1_hm                    : 0.984331
+    -----------                   :
+    val_only_seen_accuracy        : 0.941852
+    val_only_seen_precision       : 0.942471
+    val_only_seen_recall          : 0.941362
+    val_only_seen_macro_f1        : 0.941139
+    -----------                   :
+    val_only_unseen_accuracy      : 0.700889
+    val_only_unseen_precision     : 0.711621
+    val_only_unseen_recall        : 0.700889
+    val_only_unseen_macro_f1      : 0.684632
+    -----------                   :
+    val_seen_accuracy             : 0.890185
+    val_seen_precision            : 0.829093
+    val_seen_recall               : 0.889378
+    val_seen_macro_f1             : 0.840242
+    -----------                   :
+    val_unseen_accuracy           : 0.578667
+    val_unseen_precision          : 0.686929
+    val_unseen_recall             : 0.578667
+    val_unseen_macro_f1           : 0.599612
+    -----------                   :
+    val_GZSL_seen_recall          : 0.925926
+    val_GZSL_unseen_recall        : 0.738
+    val_GZSL_acc_hm               : 0.701392
+    val_GZSL_f1_hm                : 0.699819
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 43 Batch id: 0 Loss: 0.118004
+Train Epoch: 43 Batch id: 4 Loss: 0.116003
+Train Epoch: 43 Batch id: 8 Loss: 0.113175
+Train Epoch: 43 Batch id: 12 Loss: 0.129181
+Train Epoch: 43 Batch id: 16 Loss: 0.128276
+===== valid
+    only_seen_accuracy            : 0.943889
+    only_seen_precision           : 0.944319
+    only_seen_recall              : 0.943816
+    only_seen_macro_f1            : 0.943278
+    -----------                   :
+    only_unseen_accuracy          : 0.708667
+    only_unseen_precision         : 0.718447
+    only_unseen_recall            : 0.708667
+    only_unseen_macro_f1          : 0.693683
+    -----------                   :
+    seen_accuracy                 : 0.895
+    seen_precision                : 0.834614
+    seen_recall                   : 0.894805
+    seen_macro_f1                 : 0.84181
+    -----------                   :
+    unseen_accuracy               : 0.580667
+    unseen_precision              : 0.704523
+    unseen_recall                 : 0.580667
+    unseen_macro_f1               : 0.608313
+    -----------                   :
+    GZSL_seen_recall              : 0.930926
+    GZSL_unseen_recall            : 0.724
+    GZSL_acc_hm                   : 0.704355
+    GZSL_f1_hm                    : 0.706262
+    -----------                   :
+tau : Parameter containing:
+tensor(14.3488, device='cuda:0', requires_grad=True)
+    epoch                         : 43
+    loss                          : 0.121796
+    seen_accuracy                 : 0.992273
+    seen_precision                : 0.981705
+    seen_recall                   : 0.977707
+    seen_macro_f1                 : 0.979091
+    -----------                   :
+    unseen_accuracy               : 0.997
+    unseen_precision              : 0.990076
+    unseen_recall                 : 0.988091
+    unseen_macro_f1               : 0.988889
+    -----------                   :
+    GZSL_seen_recall              : 0.996636
+    GZSL_unseen_recall            : 0.998
+    GZSL_acc_hm                   : 0.995817
+    GZSL_f1_hm                    : 0.987666
+    -----------                   :
+    val_only_seen_accuracy        : 0.943889
+    val_only_seen_precision       : 0.944319
+    val_only_seen_recall          : 0.943816
+    val_only_seen_macro_f1        : 0.943278
+    -----------                   :
+    val_only_unseen_accuracy      : 0.708667
+    val_only_unseen_precision     : 0.718447
+    val_only_unseen_recall        : 0.708667
+    val_only_unseen_macro_f1      : 0.693683
+    -----------                   :
+    val_seen_accuracy             : 0.895
+    val_seen_precision            : 0.834614
+    val_seen_recall               : 0.894805
+    val_seen_macro_f1             : 0.84181
+    -----------                   :
+    val_unseen_accuracy           : 0.580667
+    val_unseen_precision          : 0.704523
+    val_unseen_recall             : 0.580667
+    val_unseen_macro_f1           : 0.608313
+    -----------                   :
+    val_GZSL_seen_recall          : 0.930926
+    val_GZSL_unseen_recall        : 0.724
+    val_GZSL_acc_hm               : 0.704355
+    val_GZSL_f1_hm                : 0.706262
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 44 Batch id: 0 Loss: 0.108470
+Train Epoch: 44 Batch id: 4 Loss: 0.113381
+Train Epoch: 44 Batch id: 8 Loss: 0.100841
+Train Epoch: 44 Batch id: 12 Loss: 0.132900
+Train Epoch: 44 Batch id: 16 Loss: 0.116292
+===== valid
+    only_seen_accuracy            : 0.943333
+    only_seen_precision           : 0.943589
+    only_seen_recall              : 0.943084
+    only_seen_macro_f1            : 0.942591
+    -----------                   :
+    only_unseen_accuracy          : 0.703333
+    only_unseen_precision         : 0.713543
+    only_unseen_recall            : 0.703333
+    only_unseen_macro_f1          : 0.687558
+    -----------                   :
+    seen_accuracy                 : 0.895926
+    seen_precision                : 0.830059
+    seen_recall                   : 0.895469
+    seen_macro_f1                 : 0.839643
+    -----------                   :
+    unseen_accuracy               : 0.571778
+    unseen_precision              : 0.706638
+    unseen_recall                 : 0.571778
+    unseen_macro_f1               : 0.601215
+    -----------                   :
+    GZSL_seen_recall              : 0.932593
+    GZSL_unseen_recall            : 0.714444
+    GZSL_acc_hm                   : 0.698057
+    GZSL_f1_hm                    : 0.700701
+    -----------                   :
+tau : Parameter containing:
+tensor(14.3968, device='cuda:0', requires_grad=True)
+    epoch                         : 44
+    loss                          : 0.119868
+    seen_accuracy                 : 0.994273
+    seen_precision                : 0.987113
+    seen_recall                   : 0.984062
+    seen_macro_f1                 : 0.985112
+    -----------                   :
+    unseen_accuracy               : 0.995
+    unseen_precision              : 0.98553
+    unseen_recall                 : 0.982636
+    unseen_macro_f1               : 0.983762
+    -----------                   :
+    GZSL_seen_recall              : 0.997455
+    GZSL_unseen_recall            : 0.997
+    GZSL_acc_hm                   : 0.995749
+    GZSL_f1_hm                    : 0.985731
+    -----------                   :
+    val_only_seen_accuracy        : 0.943333
+    val_only_seen_precision       : 0.943589
+    val_only_seen_recall          : 0.943084
+    val_only_seen_macro_f1        : 0.942591
+    -----------                   :
+    val_only_unseen_accuracy      : 0.703333
+    val_only_unseen_precision     : 0.713543
+    val_only_unseen_recall        : 0.703333
+    val_only_unseen_macro_f1      : 0.687558
+    -----------                   :
+    val_seen_accuracy             : 0.895926
+    val_seen_precision            : 0.830059
+    val_seen_recall               : 0.895469
+    val_seen_macro_f1             : 0.839643
+    -----------                   :
+    val_unseen_accuracy           : 0.571778
+    val_unseen_precision          : 0.706638
+    val_unseen_recall             : 0.571778
+    val_unseen_macro_f1           : 0.601215
+    -----------                   :
+    val_GZSL_seen_recall          : 0.932593
+    val_GZSL_unseen_recall        : 0.714444
+    val_GZSL_acc_hm               : 0.698057
+    val_GZSL_f1_hm                : 0.700701
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 45 Batch id: 0 Loss: 0.105719
+Train Epoch: 45 Batch id: 4 Loss: 0.111872
+Train Epoch: 45 Batch id: 8 Loss: 0.107973
+Train Epoch: 45 Batch id: 12 Loss: 0.112013
+Train Epoch: 45 Batch id: 16 Loss: 0.130660
+===== valid
+    only_seen_accuracy            : 0.944444
+    only_seen_precision           : 0.944891
+    only_seen_recall              : 0.94442
+    only_seen_macro_f1            : 0.943957
+    -----------                   :
+    only_unseen_accuracy          : 0.707333
+    only_unseen_precision         : 0.718034
+    only_unseen_recall            : 0.707333
+    only_unseen_macro_f1          : 0.693596
+    -----------                   :
+    seen_accuracy                 : 0.889815
+    seen_precision                : 0.825352
+    seen_recall                   : 0.889364
+    seen_macro_f1                 : 0.836681
+    -----------                   :
+    unseen_accuracy               : 0.576222
+    unseen_precision              : 0.700813
+    unseen_recall                 : 0.576222
+    unseen_macro_f1               : 0.604238
+    -----------                   :
+    GZSL_seen_recall              : 0.925926
+    GZSL_unseen_recall            : 0.722222
+    GZSL_acc_hm                   : 0.699479
+    GZSL_f1_hm                    : 0.70171
+    -----------                   :
+tau : Parameter containing:
+tensor(14.4435, device='cuda:0', requires_grad=True)
+    epoch                         : 45
+    loss                          : 0.11077
+    seen_accuracy                 : 0.993273
+    seen_precision                : 0.983579
+    seen_recall                   : 0.97956
+    seen_macro_f1                 : 0.981039
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.999167
+    unseen_recall                 : 0.999
+    unseen_macro_f1               : 0.99899
+    -----------                   :
+    GZSL_seen_recall              : 0.996364
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.995639
+    GZSL_f1_hm                    : 0.987489
+    -----------                   :
+    val_only_seen_accuracy        : 0.944444
+    val_only_seen_precision       : 0.944891
+    val_only_seen_recall          : 0.94442
+    val_only_seen_macro_f1        : 0.943957
+    -----------                   :
+    val_only_unseen_accuracy      : 0.707333
+    val_only_unseen_precision     : 0.718034
+    val_only_unseen_recall        : 0.707333
+    val_only_unseen_macro_f1      : 0.693596
+    -----------                   :
+    val_seen_accuracy             : 0.889815
+    val_seen_precision            : 0.825352
+    val_seen_recall               : 0.889364
+    val_seen_macro_f1             : 0.836681
+    -----------                   :
+    val_unseen_accuracy           : 0.576222
+    val_unseen_precision          : 0.700813
+    val_unseen_recall             : 0.576222
+    val_unseen_macro_f1           : 0.604238
+    -----------                   :
+    val_GZSL_seen_recall          : 0.925926
+    val_GZSL_unseen_recall        : 0.722222
+    val_GZSL_acc_hm               : 0.699479
+    val_GZSL_f1_hm                : 0.70171
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 46 Batch id: 0 Loss: 0.136810
+Train Epoch: 46 Batch id: 4 Loss: 0.096711
+Train Epoch: 46 Batch id: 8 Loss: 0.102208
+Train Epoch: 46 Batch id: 12 Loss: 0.109171
+Train Epoch: 46 Batch id: 16 Loss: 0.100784
+===== valid
+    only_seen_accuracy            : 0.945556
+    only_seen_precision           : 0.9459
+    only_seen_recall              : 0.945276
+    only_seen_macro_f1            : 0.944979
+    -----------                   :
+    only_unseen_accuracy          : 0.704444
+    only_unseen_precision         : 0.712937
+    only_unseen_recall            : 0.704444
+    only_unseen_macro_f1          : 0.688972
+    -----------                   :
+    seen_accuracy                 : 0.896481
+    seen_precision                : 0.821545
+    seen_recall                   : 0.895886
+    seen_macro_f1                 : 0.839114
+    -----------                   :
+    unseen_accuracy               : 0.574667
+    unseen_precision              : 0.707263
+    unseen_recall                 : 0.574667
+    unseen_macro_f1               : 0.605509
+    -----------                   :
+    GZSL_seen_recall              : 0.932037
+    GZSL_unseen_recall            : 0.715778
+    GZSL_acc_hm                   : 0.700375
+    GZSL_f1_hm                    : 0.703424
+    -----------                   :
+tau : Parameter containing:
+tensor(14.4894, device='cuda:0', requires_grad=True)
+    epoch                         : 46
+    loss                          : 0.1096
+    seen_accuracy                 : 0.993636
+    seen_precision                : 0.985684
+    seen_recall                   : 0.982126
+    seen_macro_f1                 : 0.983296
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.999167
+    unseen_recall                 : 0.999
+    unseen_macro_f1               : 0.99899
+    -----------                   :
+    GZSL_seen_recall              : 0.996909
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.996227
+    GZSL_f1_hm                    : 0.990661
+    -----------                   :
+    val_only_seen_accuracy        : 0.945556
+    val_only_seen_precision       : 0.9459
+    val_only_seen_recall          : 0.945276
+    val_only_seen_macro_f1        : 0.944979
+    -----------                   :
+    val_only_unseen_accuracy      : 0.704444
+    val_only_unseen_precision     : 0.712937
+    val_only_unseen_recall        : 0.704444
+    val_only_unseen_macro_f1      : 0.688972
+    -----------                   :
+    val_seen_accuracy             : 0.896481
+    val_seen_precision            : 0.821545
+    val_seen_recall               : 0.895886
+    val_seen_macro_f1             : 0.839114
+    -----------                   :
+    val_unseen_accuracy           : 0.574667
+    val_unseen_precision          : 0.707263
+    val_unseen_recall             : 0.574667
+    val_unseen_macro_f1           : 0.605509
+    -----------                   :
+    val_GZSL_seen_recall          : 0.932037
+    val_GZSL_unseen_recall        : 0.715778
+    val_GZSL_acc_hm               : 0.700375
+    val_GZSL_f1_hm                : 0.703424
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 47 Batch id: 0 Loss: 0.106228
+Train Epoch: 47 Batch id: 4 Loss: 0.095909
+Train Epoch: 47 Batch id: 8 Loss: 0.116749
+Train Epoch: 47 Batch id: 12 Loss: 0.173821
+Train Epoch: 47 Batch id: 16 Loss: 0.088558
+===== valid
+    only_seen_accuracy            : 0.944815
+    only_seen_precision           : 0.945591
+    only_seen_recall              : 0.944478
+    only_seen_macro_f1            : 0.94417
+    -----------                   :
+    only_unseen_accuracy          : 0.702
+    only_unseen_precision         : 0.710876
+    only_unseen_recall            : 0.702
+    only_unseen_macro_f1          : 0.686135
+    -----------                   :
+    seen_accuracy                 : 0.898889
+    seen_precision                : 0.827207
+    seen_recall                   : 0.898549
+    seen_macro_f1                 : 0.840226
+    -----------                   :
+    unseen_accuracy               : 0.568444
+    unseen_precision              : 0.706555
+    unseen_recall                 : 0.568444
+    unseen_macro_f1               : 0.600688
+    -----------                   :
+    GZSL_seen_recall              : 0.934074
+    GZSL_unseen_recall            : 0.708889
+    GZSL_acc_hm                   : 0.696458
+    GZSL_f1_hm                    : 0.700546
+    -----------                   :
+tau : Parameter containing:
+tensor(14.5339, device='cuda:0', requires_grad=True)
+    epoch                         : 47
+    loss                          : 0.105442
+    seen_accuracy                 : 0.992636
+    seen_precision                : 0.982333
+    seen_recall                   : 0.978125
+    seen_macro_f1                 : 0.979572
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.999167
+    unseen_recall                 : 0.999
+    unseen_macro_f1               : 0.99899
+    -----------                   :
+    GZSL_seen_recall              : 0.996273
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.99583
+    GZSL_f1_hm                    : 0.988825
+    -----------                   :
+    val_only_seen_accuracy        : 0.944815
+    val_only_seen_precision       : 0.945591
+    val_only_seen_recall          : 0.944478
+    val_only_seen_macro_f1        : 0.94417
+    -----------                   :
+    val_only_unseen_accuracy      : 0.702
+    val_only_unseen_precision     : 0.710876
+    val_only_unseen_recall        : 0.702
+    val_only_unseen_macro_f1      : 0.686135
+    -----------                   :
+    val_seen_accuracy             : 0.898889
+    val_seen_precision            : 0.827207
+    val_seen_recall               : 0.898549
+    val_seen_macro_f1             : 0.840226
+    -----------                   :
+    val_unseen_accuracy           : 0.568444
+    val_unseen_precision          : 0.706555
+    val_unseen_recall             : 0.568444
+    val_unseen_macro_f1           : 0.600688
+    -----------                   :
+    val_GZSL_seen_recall          : 0.934074
+    val_GZSL_unseen_recall        : 0.708889
+    val_GZSL_acc_hm               : 0.696458
+    val_GZSL_f1_hm                : 0.700546
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 48 Batch id: 0 Loss: 0.100021
+Train Epoch: 48 Batch id: 4 Loss: 0.090440
+Train Epoch: 48 Batch id: 8 Loss: 0.125381
+Train Epoch: 48 Batch id: 12 Loss: 0.131988
+Train Epoch: 48 Batch id: 16 Loss: 0.084143
+===== valid
+    only_seen_accuracy            : 0.94537
+    only_seen_precision           : 0.94561
+    only_seen_recall              : 0.945016
+    only_seen_macro_f1            : 0.944577
+    -----------                   :
+    only_unseen_accuracy          : 0.704889
+    only_unseen_precision         : 0.714546
+    only_unseen_recall            : 0.704889
+    only_unseen_macro_f1          : 0.688903
+    -----------                   :
+    seen_accuracy                 : 0.898333
+    seen_precision                : 0.825786
+    seen_recall                   : 0.897836
+    seen_macro_f1                 : 0.843951
+    -----------                   :
+    unseen_accuracy               : 0.575556
+    unseen_precision              : 0.702945
+    unseen_recall                 : 0.575556
+    unseen_macro_f1               : 0.604385
+    -----------                   :
+    GZSL_seen_recall              : 0.933889
+    GZSL_unseen_recall            : 0.721111
+    GZSL_acc_hm                   : 0.7016
+    GZSL_f1_hm                    : 0.704355
+    -----------                   :
+tau : Parameter containing:
+tensor(14.5779, device='cuda:0', requires_grad=True)
+    epoch                         : 48
+    loss                          : 0.10116
+    seen_accuracy                 : 0.994818
+    seen_precision                : 0.987511
+    seen_recall                   : 0.984603
+    seen_macro_f1                 : 0.9856
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.995455
+    unseen_recall                 : 0.994545
+    unseen_macro_f1               : 0.994949
+    -----------                   :
+    GZSL_seen_recall              : 0.997545
+    GZSL_unseen_recall            : 0.999
+    GZSL_acc_hm                   : 0.997189
+    GZSL_f1_hm                    : 0.990206
+    -----------                   :
+    val_only_seen_accuracy        : 0.94537
+    val_only_seen_precision       : 0.94561
+    val_only_seen_recall          : 0.945016
+    val_only_seen_macro_f1        : 0.944577
+    -----------                   :
+    val_only_unseen_accuracy      : 0.704889
+    val_only_unseen_precision     : 0.714546
+    val_only_unseen_recall        : 0.704889
+    val_only_unseen_macro_f1      : 0.688903
+    -----------                   :
+    val_seen_accuracy             : 0.898333
+    val_seen_precision            : 0.825786
+    val_seen_recall               : 0.897836
+    val_seen_macro_f1             : 0.843951
+    -----------                   :
+    val_unseen_accuracy           : 0.575556
+    val_unseen_precision          : 0.702945
+    val_unseen_recall             : 0.575556
+    val_unseen_macro_f1           : 0.604385
+    -----------                   :
+    val_GZSL_seen_recall          : 0.933889
+    val_GZSL_unseen_recall        : 0.721111
+    val_GZSL_acc_hm               : 0.7016
+    val_GZSL_f1_hm                : 0.704355
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 49 Batch id: 0 Loss: 0.097519
+Train Epoch: 49 Batch id: 4 Loss: 0.095828
+Train Epoch: 49 Batch id: 8 Loss: 0.121227
+Train Epoch: 49 Batch id: 12 Loss: 0.159213
+Train Epoch: 49 Batch id: 16 Loss: 0.092143
+===== valid
+    only_seen_accuracy            : 0.943704
+    only_seen_precision           : 0.943785
+    only_seen_recall              : 0.943364
+    only_seen_macro_f1            : 0.942978
+    -----------                   :
+    only_unseen_accuracy          : 0.704889
+    only_unseen_precision         : 0.711552
+    only_unseen_recall            : 0.704889
+    only_unseen_macro_f1          : 0.688301
+    -----------                   :
+    seen_accuracy                 : 0.893148
+    seen_precision                : 0.825028
+    seen_recall                   : 0.892714
+    seen_macro_f1                 : 0.839305
+    -----------                   :
+    unseen_accuracy               : 0.573333
+    unseen_precision              : 0.698144
+    unseen_recall                 : 0.573333
+    unseen_macro_f1               : 0.60207
+    -----------                   :
+    GZSL_seen_recall              : 0.927778
+    GZSL_unseen_recall            : 0.714667
+    GZSL_acc_hm                   : 0.698367
+    GZSL_f1_hm                    : 0.701164
+    -----------                   :
+tau : Parameter containing:
+tensor(14.6205, device='cuda:0', requires_grad=True)
+    epoch                         : 49
+    loss                          : 0.105172
+    seen_accuracy                 : 0.994727
+    seen_precision                : 0.987022
+    seen_recall                   : 0.98407
+    seen_macro_f1                 : 0.985163
+    -----------                   :
+    unseen_accuracy               : 0.996
+    unseen_precision              : 0.981818
+    unseen_recall                 : 0.978182
+    unseen_macro_f1               : 0.979798
+    -----------                   :
+    GZSL_seen_recall              : 0.996909
+    GZSL_unseen_recall            : 0.996
+    GZSL_acc_hm                   : 0.995259
+    GZSL_f1_hm                    : 0.981633
+    -----------                   :
+    val_only_seen_accuracy        : 0.943704
+    val_only_seen_precision       : 0.943785
+    val_only_seen_recall          : 0.943364
+    val_only_seen_macro_f1        : 0.942978
+    -----------                   :
+    val_only_unseen_accuracy      : 0.704889
+    val_only_unseen_precision     : 0.711552
+    val_only_unseen_recall        : 0.704889
+    val_only_unseen_macro_f1      : 0.688301
+    -----------                   :
+    val_seen_accuracy             : 0.893148
+    val_seen_precision            : 0.825028
+    val_seen_recall               : 0.892714
+    val_seen_macro_f1             : 0.839305
+    -----------                   :
+    val_unseen_accuracy           : 0.573333
+    val_unseen_precision          : 0.698144
+    val_unseen_recall             : 0.573333
+    val_unseen_macro_f1           : 0.60207
+    -----------                   :
+    val_GZSL_seen_recall          : 0.927778
+    val_GZSL_unseen_recall        : 0.714667
+    val_GZSL_acc_hm               : 0.698367
+    val_GZSL_f1_hm                : 0.701164
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 50 Batch id: 0 Loss: 0.093504
+Train Epoch: 50 Batch id: 4 Loss: 0.087608
+Train Epoch: 50 Batch id: 8 Loss: 0.109827
+Train Epoch: 50 Batch id: 12 Loss: 0.075660
+Train Epoch: 50 Batch id: 16 Loss: 0.074896
+===== valid
+    only_seen_accuracy            : 0.94537
+    only_seen_precision           : 0.945154
+    only_seen_recall              : 0.945161
+    only_seen_macro_f1            : 0.944464
+    -----------                   :
+    only_unseen_accuracy          : 0.710444
+    only_unseen_precision         : 0.715301
+    only_unseen_recall            : 0.710444
+    only_unseen_macro_f1          : 0.6936
+    -----------                   :
+    seen_accuracy                 : 0.900926
+    seen_precision                : 0.827907
+    seen_recall                   : 0.900459
+    seen_macro_f1                 : 0.841966
+    -----------                   :
+    unseen_accuracy               : 0.573778
+    unseen_precision              : 0.712874
+    unseen_recall                 : 0.573778
+    unseen_macro_f1               : 0.607027
+    -----------                   :
+    GZSL_seen_recall              : 0.936667
+    GZSL_unseen_recall            : 0.712222
+    GZSL_acc_hm                   : 0.701064
+    GZSL_f1_hm                    : 0.705449
+    -----------                   :
+tau : Parameter containing:
+tensor(14.6625, device='cuda:0', requires_grad=True)
+    epoch                         : 50
+    loss                          : 0.0928573
+    seen_accuracy                 : 0.995
+    seen_precision                : 0.987879
+    seen_recall                   : 0.985187
+    seen_macro_f1                 : 0.986119
+    -----------                   :
+    unseen_accuracy               : 0.998
+    unseen_precision              : 0.998333
+    unseen_recall                 : 0.998
+    unseen_macro_f1               : 0.99798
+    -----------                   :
+    GZSL_seen_recall              : 0.997727
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.996905
+    GZSL_f1_hm                    : 0.992715
+    -----------                   :
+    val_only_seen_accuracy        : 0.94537
+    val_only_seen_precision       : 0.945154
+    val_only_seen_recall          : 0.945161
+    val_only_seen_macro_f1        : 0.944464
+    -----------                   :
+    val_only_unseen_accuracy      : 0.710444
+    val_only_unseen_precision     : 0.715301
+    val_only_unseen_recall        : 0.710444
+    val_only_unseen_macro_f1      : 0.6936
+    -----------                   :
+    val_seen_accuracy             : 0.900926
+    val_seen_precision            : 0.827907
+    val_seen_recall               : 0.900459
+    val_seen_macro_f1             : 0.841966
+    -----------                   :
+    val_unseen_accuracy           : 0.573778
+    val_unseen_precision          : 0.712874
+    val_unseen_recall             : 0.573778
+    val_unseen_macro_f1           : 0.607027
+    -----------                   :
+    val_GZSL_seen_recall          : 0.936667
+    val_GZSL_unseen_recall        : 0.712222
+    val_GZSL_acc_hm               : 0.701064
+    val_GZSL_f1_hm                : 0.705449
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 51 Batch id: 0 Loss: 0.072301
+Train Epoch: 51 Batch id: 4 Loss: 0.080436
+Train Epoch: 51 Batch id: 8 Loss: 0.074485
+Train Epoch: 51 Batch id: 12 Loss: 0.077255
+Train Epoch: 51 Batch id: 16 Loss: 0.143985
+===== valid
+    only_seen_accuracy            : 0.945
+    only_seen_precision           : 0.944846
+    only_seen_recall              : 0.945069
+    only_seen_macro_f1            : 0.944325
+    -----------                   :
+    only_unseen_accuracy          : 0.705556
+    only_unseen_precision         : 0.708429
+    only_unseen_recall            : 0.705556
+    only_unseen_macro_f1          : 0.688609
+    -----------                   :
+    seen_accuracy                 : 0.897963
+    seen_precision                : 0.819428
+    seen_recall                   : 0.897717
+    seen_macro_f1                 : 0.839049
+    -----------                   :
+    unseen_accuracy               : 0.570889
+    unseen_precision              : 0.70555
+    unseen_recall                 : 0.570889
+    unseen_macro_f1               : 0.603664
+    -----------                   :
+    GZSL_seen_recall              : 0.933333
+    GZSL_unseen_recall            : 0.706444
+    GZSL_acc_hm                   : 0.69801
+    GZSL_f1_hm                    : 0.702154
+    -----------                   :
+tau : Parameter containing:
+tensor(14.7028, device='cuda:0', requires_grad=True)
+    epoch                         : 51
+    loss                          : 0.0877714
+    seen_accuracy                 : 0.995818
+    seen_precision                : 0.98947
+    seen_recall                   : 0.986917
+    seen_macro_f1                 : 0.98785
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.995455
+    unseen_recall                 : 0.994545
+    unseen_macro_f1               : 0.994949
+    -----------                   :
+    GZSL_seen_recall              : 0.997727
+    GZSL_unseen_recall            : 0.999
+    GZSL_acc_hm                   : 0.997761
+    GZSL_f1_hm                    : 0.99227
+    -----------                   :
+    val_only_seen_accuracy        : 0.945
+    val_only_seen_precision       : 0.944846
+    val_only_seen_recall          : 0.945069
+    val_only_seen_macro_f1        : 0.944325
+    -----------                   :
+    val_only_unseen_accuracy      : 0.705556
+    val_only_unseen_precision     : 0.708429
+    val_only_unseen_recall        : 0.705556
+    val_only_unseen_macro_f1      : 0.688609
+    -----------                   :
+    val_seen_accuracy             : 0.897963
+    val_seen_precision            : 0.819428
+    val_seen_recall               : 0.897717
+    val_seen_macro_f1             : 0.839049
+    -----------                   :
+    val_unseen_accuracy           : 0.570889
+    val_unseen_precision          : 0.70555
+    val_unseen_recall             : 0.570889
+    val_unseen_macro_f1           : 0.603664
+    -----------                   :
+    val_GZSL_seen_recall          : 0.933333
+    val_GZSL_unseen_recall        : 0.706444
+    val_GZSL_acc_hm               : 0.69801
+    val_GZSL_f1_hm                : 0.702154
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 52 Batch id: 0 Loss: 0.106485
+Train Epoch: 52 Batch id: 4 Loss: 0.096573
+Train Epoch: 52 Batch id: 8 Loss: 0.081392
+Train Epoch: 52 Batch id: 12 Loss: 0.085944
+Train Epoch: 52 Batch id: 16 Loss: 0.084759
+===== valid
+    only_seen_accuracy            : 0.947407
+    only_seen_precision           : 0.947625
+    only_seen_recall              : 0.947491
+    only_seen_macro_f1            : 0.946897
+    -----------                   :
+    only_unseen_accuracy          : 0.704889
+    only_unseen_precision         : 0.707609
+    only_unseen_recall            : 0.704889
+    only_unseen_macro_f1          : 0.687797
+    -----------                   :
+    seen_accuracy                 : 0.902222
+    seen_precision                : 0.828762
+    seen_recall                   : 0.902109
+    seen_macro_f1                 : 0.843436
+    -----------                   :
+    unseen_accuracy               : 0.568889
+    unseen_precision              : 0.707466
+    unseen_recall                 : 0.568889
+    unseen_macro_f1               : 0.601716
+    -----------                   :
+    GZSL_seen_recall              : 0.935556
+    GZSL_unseen_recall            : 0.708
+    GZSL_acc_hm                   : 0.697791
+    GZSL_f1_hm                    : 0.70236
+    -----------                   :
+tau : Parameter containing:
+tensor(14.7427, device='cuda:0', requires_grad=True)
+    epoch                         : 52
+    loss                          : 0.0839061
+    seen_accuracy                 : 0.995636
+    seen_precision                : 0.98871
+    seen_recall                   : 0.986308
+    seen_macro_f1                 : 0.987202
+    -----------                   :
+    unseen_accuracy               : 1.0
+    unseen_precision              : 1.0
+    unseen_recall                 : 1.0
+    unseen_macro_f1               : 1.0
+    -----------                   :
+    GZSL_seen_recall              : 0.997909
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.997372
+    GZSL_f1_hm                    : 0.991678
+    -----------                   :
+    val_only_seen_accuracy        : 0.947407
+    val_only_seen_precision       : 0.947625
+    val_only_seen_recall          : 0.947491
+    val_only_seen_macro_f1        : 0.946897
+    -----------                   :
+    val_only_unseen_accuracy      : 0.704889
+    val_only_unseen_precision     : 0.707609
+    val_only_unseen_recall        : 0.704889
+    val_only_unseen_macro_f1      : 0.687797
+    -----------                   :
+    val_seen_accuracy             : 0.902222
+    val_seen_precision            : 0.828762
+    val_seen_recall               : 0.902109
+    val_seen_macro_f1             : 0.843436
+    -----------                   :
+    val_unseen_accuracy           : 0.568889
+    val_unseen_precision          : 0.707466
+    val_unseen_recall             : 0.568889
+    val_unseen_macro_f1           : 0.601716
+    -----------                   :
+    val_GZSL_seen_recall          : 0.935556
+    val_GZSL_unseen_recall        : 0.708
+    val_GZSL_acc_hm               : 0.697791
+    val_GZSL_f1_hm                : 0.70236
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 53 Batch id: 0 Loss: 0.088746
+Train Epoch: 53 Batch id: 4 Loss: 0.080244
+Train Epoch: 53 Batch id: 8 Loss: 0.072848
+Train Epoch: 53 Batch id: 12 Loss: 0.086770
+Train Epoch: 53 Batch id: 16 Loss: 0.096076
+===== valid
+    only_seen_accuracy            : 0.944444
+    only_seen_precision           : 0.944375
+    only_seen_recall              : 0.944415
+    only_seen_macro_f1            : 0.94368
+    -----------                   :
+    only_unseen_accuracy          : 0.706222
+    only_unseen_precision         : 0.710545
+    only_unseen_recall            : 0.706222
+    only_unseen_macro_f1          : 0.689593
+    -----------                   :
+    seen_accuracy                 : 0.900556
+    seen_precision                : 0.828349
+    seen_recall                   : 0.900218
+    seen_macro_f1                 : 0.842953
+    -----------                   :
+    unseen_accuracy               : 0.567778
+    unseen_precision              : 0.704107
+    unseen_recall                 : 0.567778
+    unseen_macro_f1               : 0.599811
+    -----------                   :
+    GZSL_seen_recall              : 0.936481
+    GZSL_unseen_recall            : 0.713778
+    GZSL_acc_hm                   : 0.696456
+    GZSL_f1_hm                    : 0.700894
+    -----------                   :
+tau : Parameter containing:
+tensor(14.7819, device='cuda:0', requires_grad=True)
+    epoch                         : 53
+    loss                          : 0.0877386
+    seen_accuracy                 : 0.994818
+    seen_precision                : 0.985947
+    seen_recall                   : 0.98287
+    seen_macro_f1                 : 0.983984
+    -----------                   :
+    unseen_accuracy               : 0.999
+    unseen_precision              : 0.999167
+    unseen_recall                 : 0.999
+    unseen_macro_f1               : 0.99899
+    -----------                   :
+    GZSL_seen_recall              : 0.997273
+    GZSL_unseen_recall            : 1.0
+    GZSL_acc_hm                   : 0.996759
+    GZSL_f1_hm                    : 0.992266
+    -----------                   :
+    val_only_seen_accuracy        : 0.944444
+    val_only_seen_precision       : 0.944375
+    val_only_seen_recall          : 0.944415
+    val_only_seen_macro_f1        : 0.94368
+    -----------                   :
+    val_only_unseen_accuracy      : 0.706222
+    val_only_unseen_precision     : 0.710545
+    val_only_unseen_recall        : 0.706222
+    val_only_unseen_macro_f1      : 0.689593
+    -----------                   :
+    val_seen_accuracy             : 0.900556
+    val_seen_precision            : 0.828349
+    val_seen_recall               : 0.900218
+    val_seen_macro_f1             : 0.842953
+    -----------                   :
+    val_unseen_accuracy           : 0.567778
+    val_unseen_precision          : 0.704107
+    val_unseen_recall             : 0.567778
+    val_unseen_macro_f1           : 0.599811
+    -----------                   :
+    val_GZSL_seen_recall          : 0.936481
+    val_GZSL_unseen_recall        : 0.713778
+    val_GZSL_acc_hm               : 0.696456
+    val_GZSL_f1_hm                : 0.700894
+    -----------                   :
+********************    Best performance epoch 24 : 0.711211
+
+====================
+Train Epoch: 54 Batch id: 0 Loss: 0.105883
+Train Epoch: 54 Batch id: 4 Loss: 0.075965
+Train Epoch: 54 Batch id: 8 Loss: 0.075146
+Train Epoch: 54 Batch id: 12 Loss: 0.105028
+Train Epoch: 54 Batch id: 16 Loss: 0.069131
+===== valid
+    only_seen_accuracy            : 0.94463
+    only_seen_precision           : 0.944663
+    only_seen_recall              : 0.94436
+    only_seen_macro_f1            : 0.943848
+    -----------                   :
+    only_unseen_accuracy          : 0.706
+    only_unseen_precision         : 0.7078
+    only_unseen_recall            : 0.706
+    only_unseen_macro_f1          : 0.689073
+    -----------                   :
+    seen_accuracy                 : 0.902037
+    seen_precision                : 0.827537
+    seen_recall                   : 0.901417
+    seen_macro_f1                 : 0.841723
+    -----------                   :
+    unseen_accuracy               : 0.566222
+    unseen_precision              : 0.705773
+    unseen_recall                 : 0.566222
+    unseen_macro_f1               : 0.600441
+    -----------                   :
+    GZSL_seen_recall              : 0.937222
+    GZSL_unseen_recall            : 0.705778
+    GZSL_acc_hm                   : 0.695726
+    GZSL_f1_hm                    : 0.700898
+    -----------                   :
+tau : Parameter containing:
+tensor(14.8206, device='cuda:0', requires_grad=True)
+    epoch                         : 54
+    loss                          : 0.0794681
+    seen_accuracy                 : 0.997
+    seen_precision                : 0.991083
+    seen_recall                   : 0.989029
+    seen_macro_f1                 : 0.98975
+    -----------                   :
+    unseen_accuracy               : 1.0
+    unseen_precision              : 1.0
+    val_only_unseen_macro_f1      : 0.689073
+    -----------                   :
+    val_seen_accuracy             : 0.902037
+    val_seen_precision            : 0.827537
+    val_seen_recall               : 0.901417
+    val_seen_macro_f1             : 0.841723
+    -----------                   :
+    val_unseen_accuracy           : 0.566222
+    val_unseen_precision          : 0.705773
+    val_unseen_recall             : 0.566222
+    val_unseen_macro_f1           : 0.600441
+    -----------                   :
+    val_GZSL_seen_recall          : 0.937222
+    val_GZSL_unseen_recall        : 0.705778
+    val_GZSL_acc_hm               : 0.695726
+    val_GZSL_f1_hm                : 0.700898
+    -----------                   :
+Best performance epoch 24 : 0.711211 -- saved\checkpoints\LTA\0707_212502\model_best.pth
+PS C:\Users\陈欣琪\Desktop\云计算与大数据\大作业\LTA-main>     val_only_unseen_macro_f1      : 0.689073
+    -----------                   :
+    val_seen_accuracy             : 0.902037
+    val_seen_precision            : 0.827537
+    val_seen_recall               : 0.901417
+    val_seen_macro_f1             : 0.841723
+    -----------                   :
+    val_unseen_accuracy           : 0.566222
+    val_unseen_precision          : 0.705773
+    val_unseen_recall             : 0.566222
+    val_unseen_macro_f1           : 0.600441
+    -----------                   :
+    val_GZSL_seen_recall          : 0.937222
+    val_GZSL_unseen_recall        : 0.705778
+    val_GZSL_acc_hm               : 0.695726
+    val_GZSL_f1_hm                : 0.700898
+    -----------                   :
+Best performance epoch 24 : 0.711211 -- saved\checkpoints\LTA\0707_212502\model_best.pth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
