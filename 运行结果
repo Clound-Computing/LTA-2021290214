@@ -4192,24 +4192,7 @@ tensor(14.8206, device='cuda:0', requires_grad=True)
     val_GZSL_f1_hm                : 0.700898
     -----------                   :
 Best performance epoch 24 : 0.711211 -- saved\checkpoints\LTA\0707_212502\model_best.pth
-PS C:\Users\陈欣琪\Desktop\云计算与大数据\大作业\LTA-main>     val_only_unseen_macro_f1      : 0.689073
-    -----------                   :
-    val_seen_accuracy             : 0.902037
-    val_seen_precision            : 0.827537
-    val_seen_recall               : 0.901417
-    val_seen_macro_f1             : 0.841723
-    -----------                   :
-    val_unseen_accuracy           : 0.566222
-    val_unseen_precision          : 0.705773
-    val_unseen_recall             : 0.566222
-    val_unseen_macro_f1           : 0.600441
-    -----------                   :
-    val_GZSL_seen_recall          : 0.937222
-    val_GZSL_unseen_recall        : 0.705778
-    val_GZSL_acc_hm               : 0.695726
-    val_GZSL_f1_hm                : 0.700898
-    -----------                   :
-Best performance epoch 24 : 0.711211 -- saved\checkpoints\LTA\0707_212502\model_best.pth
+
 
 
 
